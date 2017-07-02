@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="it.linksmt.locomotivejazz" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>LocomotiveJazz</name>
+  <description>Applicazione per restare sullo stesso binario di LocomotiveJazz</description>
+  <author email="francesco.corvino@linksmt.it" href="http://www.linksmt.it">Francesco Corvino</author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <access launch-external="yes" origin="tel:*"/>
+  <access launch-external="yes" origin="mailto:*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="mailto:*"/>
+  <preference name="iosExtraFilesystems" value="library,library-nosync,documents,documents-nosync,cache,bundle,root"/>
+  <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="SplashScreen" value="none"/>
+  <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+  <preference name="KeyboardShrinksView" value="true"/>
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
+  </feature>
+  <platform name="android">
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
+  </platform>
+  <platform name="ios">
+    <preference name="StatusBarOverlaysWebView" value="false"/>
+    <preference name="StatusBarBackgroundColor" value="#FFFFFF"/>
+    <preference name="StatusBarStyle" value="darkcontent"/>
+  </platform>
+  <plugin name="ionic-plugin-keyboard" spec="~2.0.1"/>
+  <plugin name="cordova-plugin-ignore-lint-translation" spec="~0.0.1"/>
+  <plugin name="cordova-plugin-console" version="1.0.2"/>
+  <plugin name="cordova-plugin-device" version="1.1.1"/>
+  <plugin name="cordova-plugin-statusbar" version="2.1.1"/>
+  <plugin name="cordova-plugin-whitelist" version="1.2.1"/>
+  <plugin name="cordova-plugin-x-socialsharing" version="5.1.2"/>
+  <plugin name="cordova-plugin-app-version" spec="https://github.com/whiteoctober/cordova-plugin-app-version.git"/>
+  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+</widget>

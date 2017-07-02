@@ -1,0 +1,67 @@
+{
+    "default":{
+        "dest":"./www",
+        "dest_mock":"./www/mock",
+        "index_html":"./www/index.html",
+        "dist_sources":"./www/app",
+        "dist_vendor":"./www/libs",
+        "dist_css":"./www/css"
+    },
+    "app":{
+        "index": "./src/index.html",
+        "static_paths":[
+            "./src/static/**/*.png",
+            "./src/static/**/*.gif",
+            "./src/static/**/*.jpg",
+            "./src/static/**/*.otf",
+            "./src/static/**/*.eot",
+            "./src/static/**/*.svg",
+            "./src/static/**/*.ttf",
+            "./src/static/**/*.woff"
+        ],
+        "js_paths":["./src/app/**/*.js"],
+        "vendor_paths":["./src/libs/**/*.js"],
+        "html_paths":["./src/app/**/*.html"],
+        "sass_main":["./src/scss/ionic.app.scss"],
+        "sass_paths":["./src/scss/**/*.scss"],
+        "mock_paths":"./src/static/mock/**/*.*",
+        "components_paths":"./src/app/common/components/"
+    },
+    "build":{
+        "analitycs":{
+            "development":"UA-83045884-1",
+            "production":"UA-20243011-7",
+            "files":"./www/js/"
+        },
+        "notifications":{
+            "development":"1057379319483",
+            "production":"361664677713",
+            "files":"./www/js/"
+        },
+        "applicationId":{
+            "development":"it.linksmt.bancagenerali",
+            "production":"it.bancagenerali.bgstore",
+            "files":"./www/js/"
+        },
+        "components": "./www/app/common/components",
+        "config_js":"./www/app/common/config/",
+        "services_js":"./www/app/common/services/",
+        "vendor_static":[
+            "./src/libs/ionic/**/*.svg",
+            "./src/libs/ionic/**/*.eot",
+            "./src/libs/ionic/**/*.ttf",
+            "./src/libs/ionic/**/*.woff"
+        ],
+        "environment": "/app/common/config/environment.js",
+        "env_location": "./src/gulp-static/environment/"
+    },
+    "commandOptions":{
+        "string": ["env", "uglify", "buildfor"],
+        "default": {
+            "env": "svil161",
+            "uglify": false,
+            "buildfor":"dev"
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "LocomotiveJazz",
+  "app_id": "",
+  "defaultBrowser": "chrome",
+  "gulpStartupTasks": [
+    "watch"
+  ],
+  "watchPatterns": [
+    "src/**/*",
+    "!src/lib/**/*"
+  ]
+
+}
