@@ -2,7 +2,7 @@
     "directory": "src/lib/",
     "timeout": 120000,
     "scripts": {
-        "postinstall": "gulp bower:change",
-        "preuninstall": "gulp bower:change"
+        "postinstall": "gulp build:vendor:change",
+        "preuninstall": "gulp build:vendor:change"
     }
 }

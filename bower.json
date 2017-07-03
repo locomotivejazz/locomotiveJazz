@@ -1,7 +1,16 @@
 {
-  "name": "HelloIonic",
+  "name": "LocomotiveJazz",
   "private": "true",
-  "devDependencies": {
+  "dependencies": {
+    "angular-filter": "^0.5.16",
     "ionic": "driftyco/ionic-bower#1.2.4"
+  },
+  "overrides": {
+      "ionic": {
+          "main": ["js/ionic.bundle.min.js"]
+      },
+      "angular-filter":{
+          "dependencies": "ionic"
+      }
   }
 }

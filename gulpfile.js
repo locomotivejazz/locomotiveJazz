@@ -1,6 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
-var minimist = require('minimist');
+var runSequence = require('run-sequence').use(gulp);
+var del = require('del');
 
 /**
  * Abilitazione cartella gulp per le configurazioni di gulp
@@ -11,13 +11,26 @@ var paths = config.paths;
 
 gulp.task('default', ['build']);
 
-gulp.task('build', function(){
-
+gulp.task('build', function(cb){
+    runSequence(
+        'build:js:compact',
+        'build:templates:module',
+        'build:sass',
+        'build:static',
+        'build:js:libs',
+        'build:index',
+        cb);
 });
 
-gulp.task('watch', ['build'], function(){
-
+gulp.task('clear',function(cb){
+    var build_dirs = ['www/*'];
+    return del(build_dirs);
 });
 
-gulp.task('serve:before',['watch']);
+gulp.task('watch', function(){
+    console.log("passo dal watch di prod");
+    runSequence('build','watch:change');
+});
+
+gulp.task('serve:before',['clear','watch']);
 
