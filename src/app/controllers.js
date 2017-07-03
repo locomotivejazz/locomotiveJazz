@@ -4,21 +4,16 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('HomeCtrl', function($scope, $state) {
+.controller('HomeCtrl', function($scope, $state,EventiServizio ) {
   $scope.vaiDettaglioEvento = function(evento){
     console.log("Ho ricevuto il click su: ", evento);
     $state.go("app.evento",{eventoId: evento.id})
   };
 
-  $scope.eventi = [
-    { luogo: '', id: 1 , data: new Date()},
-    { luogo: 'Chill', id: 2 , data: new Date()},
-    { luogo: 'Dubstep', id: 3 },
-    { luogo: 'Indie', id: 4 },
-    { luogo: 'Rap', id: 5 },
-    { luogo: 'Cowbell', id: 6 }
-  ];
+  $scope.eventi = EventiServizio.getEventi();
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('PlaylistCtrl', function($scope, $stateParams, EventiServizio) {
+
+        $scope.eventi = EventiServizio.getEventi();
 });
