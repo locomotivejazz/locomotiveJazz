@@ -1,22 +1,17 @@
 <ion-view view-title="LOCOMOTIVE JAZZ FESTIVAL">
     <ion-content scroll="true">
 
-      <div class="list-card" ng-repeat="evento in eventi">
+      <div class="list card" ng-repeat="evento in eventi">
         <div class="item item-avatar" ng-click="vaiDettaglioEvento(evento)">
-        <br></br>
-        <h2>DATA {{ evento.data | date: 'dd/MM/yyyy'}}</h2>
-        <p>ORA</p>
+            <h2>{{ evento.data | date: 'dd/MM/yyyy'}}</h2>
+            <h3>{{ evento.titolo}}</h3>
         </div>
-
         <div class="item item-image">
-        <img ng-src="{{evento.image}}" style="height: 175px;">
+            <img ng-src="{{evento.image}}" >
         </div>
-
         <a class="item item-icon-left assertive" href="#">
-
-        LUOGO {{ evento.title}}
+          <i class="icon ion-music-note"></i> Acquista Prevendita
         </a>
-
       </div>
   </ion-content>
 </ion-view>
