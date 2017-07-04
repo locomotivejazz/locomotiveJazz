@@ -18,6 +18,7 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="orientation" value="portrait"/>
 
+  <preference name="SplashScreen" value="screen" />
   <preference name="SplashScreenDelay" value="3000" />
   <preference name="SplashMaintainAspectRatio" value="true" />
   <preference name="SplashShowOnlyFirstTime" value="false" />
@@ -30,18 +31,20 @@
   </feature>
   <platform name="android">
     <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
-    <splash src="resources\android\splash\drawable-port-ldpi-screen.png" density="port-ldpi"/>
-    <splash src="resources\android\splash\drawable-port-mdpi-screen.png" density="port-mdpi"/>
-    <splash src="resources\android\splash\drawable-port-hdpi-screen.png" density="port-hdpi"/>
-    <splash src="resources\android\splash\drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
-    <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-    <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
     <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
     <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
     <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+
+    <splash src="resources/android/splash/drawable-port-ldpi-screen.png" density="port-ldpi"/>
+    <splash src="resources/android/splash/drawable-port-mdpi-screen.png" density="port-mdpi"/>
+    <splash src="resources/android/splash/drawable-port-hdpi-screen.png" density="port-hdpi"/>
+    <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+    <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+
   </platform>
   <platform name="ios">
     <preference name="StatusBarOverlaysWebView" value="false"/>
@@ -74,6 +77,7 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
     <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
   </platform>
+
   <plugin name="ionic-plugin-keyboard" spec="~2.0.1"/>
   <plugin name="cordova-plugin-ignore-lint-translation" spec="~0.0.1"/>
   <plugin name="cordova-plugin-console" version="1.0.2"/>
