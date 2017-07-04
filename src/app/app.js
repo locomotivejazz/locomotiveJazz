@@ -25,49 +25,59 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-    .state('app', {
-    url: '/app',
-    abstract: true,
-    templateUrl: 'templates/menu.html',
-    controller: 'AppCtrl'
-  })
+      .state('app', {
+      url: '/app',
+      abstract: true,
+      templateUrl: 'templates/menu.html',
+      controller: 'AppCtrl'
+    })
 
-  .state('app.search', {
-    url: '/search',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/search.html'
-      }
-    }
-  })
-
-  .state('app.browse', {
-      url: '/browse',
+    .state('app.info', {
+      url: '/info',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/info.html'
         }
       }
     })
-    .state('app.home', {
-      url: '/home',
+
+    .state('app.browse', {
+        url: '/browse',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/browse.html',
+            controller: 'HomeCtrl'
+          }
+        }
+      })
+      .state('app.home', {
+        url: '/home',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/home.html',
+            controller: 'HomeCtrl'
+          }
+        }
+      })
+
+  .state('app.contatti', {
+    url: '/contatti',
+    views: {
+      'menuContent' : {
+        templateUrl: 'templates/contatti.html'
+      }
+    }
+  })
+    .state('app.evento', {
+      url: '/evento/:eventoId',
       views: {
         'menuContent': {
           templateUrl: 'templates/home.html',
-          controller: 'HomeCtrl'
+          controller: 'PlaylistCtrl'
         }
       }
-    })
 
-  .state('app.evento', {
-    url: '/evento/:eventoId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/home.html',
-        controller: 'PlaylistCtrl'
-      }
-    }
-  });
+    });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });

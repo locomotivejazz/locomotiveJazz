@@ -1,22 +1,27 @@
-<ion-view view-title="LOCOMOTIVE JAZZ FESTIVAL">
-    <ion-content scroll="true">
+<ion-view view-title="Home">
 
-      <div class="list-card" ng-repeat="evento in eventi">
-        <div class="item item-avatar" ng-click="vaiDettaglioEvento(evento)">
-        <br></br>
-        <h2>DATA {{ evento.data | date: 'dd/MM/yyyy'}}</h2>
-        <p>ORA</p>
-        </div>
-
-        <div class="item item-image">
-        <img src="img/logo-locomotive-01.png" style="height: 175px;">
-        </div>
-
-        <a class="item item-icon-left assertive" href="#">
-
-        LUOGO {{ evento.title}}
-        </a>
-
+  <ion-content>
+    <div class="card">
+      <div class="item item-text-wrap">
+        <background-image url:"img\event1.png">
+          <h1 style="color: red;">14 LUGLIO </h1>
+          <h3 style=" color: black;"><b>MONTERONI DI LECCE</b> </h3>
       </div>
+    </div>
+      <div class="card">
+        <div class="item item-text-wrap">
+          <background-image url:"img\evento2.png">
+            <h1 style="color: red;">22 LUGLIO </h1>
+            <h3 style=" color: black;"><b>LECCE</b> </h3>
+        </div>
+      </div>
+        <div class="card">
+          <div class="item item-text-wrap">
+            <background-image url:"img\evento3.png">
+              <h1 style="color: red;">23 LUGLIO </h1>
+              <h3 style=" color: black;"><b>da BARI a MATERA</b> </h3>
+          </div>
+        </div>
   </ion-content>
+
 </ion-view>
