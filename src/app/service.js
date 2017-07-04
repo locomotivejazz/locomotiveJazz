@@ -8,13 +8,14 @@ angular.module('locomotivejazz.service', [])
 
     servizio.getEventi = function(){
         var servizi = [
-            { luogo: '', id: 1 , data: new Date()},
-            { luogo: 'Chill', id: 2 , data: new Date()},
-            { luogo: 'Dubstep', id: 3 },
-            { luogo: 'Indie', id: 4 },
-            { luogo: 'Rap', id: 5 },
-            { luogo: 'Cowbell', id: 6 }
-        ];
+               { luogo: '1.1', id: 1 , data: new Date() ,  image:'img/event1.png'   },
+               { luogo: '2.2', id: 2 , data: new Date() ,   image:'img/evento2.png'  },
+               { luogo: '3.3', id: 3 , data: new Date() ,   image:'img/evento3.png'  },
+               { luogo: '4.4', id: 4 , data: new Date() ,   image:'img/event1.png'   },
+               { luogo: '5.5', id: 5 },
+               { luogo: '6.6', id: 6 }
+                        ];
+                })
         return servizi;
     };
 
