@@ -72,8 +72,8 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
       url: '/evento/:eventoId',
       views: {
         'menuContent': {
-          templateUrl: 'templates/home.html',
-          controller: 'PlaylistCtrl'
+          templateUrl: 'templates/evento.html',
+          controller: 'DettaglioEventoCtrl'
         }
       }
 

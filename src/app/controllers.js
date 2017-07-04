@@ -13,7 +13,12 @@ angular.module('starter.controllers', [])
   $scope.eventi = EventiServizio.getEventi();
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams, EventiServizio) {
+.controller('DettaglioEventoCtrl', function($scope, $stateParams, EventiServizio) {
+    var idEvento = $stateParams.eventoId;
 
-        $scope.eventi = EventiServizio.getEventi();
+    console.log("Parametro dell'evento:", idEvento);
+
+    $scope.evento = EventiServizio.getEvento(idEvento);
+
+    console.log("Ritorna l'evento", $scope.evento);
 });
