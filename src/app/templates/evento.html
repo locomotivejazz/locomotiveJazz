@@ -1,12 +1,22 @@
 <ion-view view-title="Info">
     <ion-content>
 
-    <h3>    Prova Evento</h3>
-    <pre>
-        {{ evento | json }}
-</pre>
+    <h3>{{evento.titolo}}</h3>
+    <div ng-bind-html="evento.descrizione"></div>
+
+       Inserisci l'elenco:
+    <div ng-repeat="card in evento.programma">
+        Prova
+        <div ng-bind-html="card.descrizione">
+
+        </div>
+    </div>
+
     <div ng-if="evento.isEventoInEvidenza">
       Evento in eviden
     </div>
+    <pre>
+        {{ evento | json }}
+    </pre>
     </ion-content>
 </ion-view>
