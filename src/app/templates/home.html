@@ -1,27 +1,20 @@
 <ion-view view-title="Home">
 
   <ion-content>
-    <div class="card">
-      <div class="item item-text-wrap">
-        <background-image url:"img\event1.png">
-          <h1 style="color: red;">14 LUGLIO </h1>
-          <h3 style=" color: black;"><b>MONTERONI DI LECCE</b> </h3>
-      </div>
-    </div>
-      <div class="card">
+    <div class="card" >
         <div class="item item-text-wrap">
-          <background-image url:"img\evento2.png">
-            <h1 style="color: red;">22 LUGLIO </h1>
-            <h3 style=" color: black;"><b>LECCE</b> </h3>
+          <h1 >Locomotive Jazz Festival 2017</h1>
+          <h3 class="toUpper"><b>XII Edizione</b> </h3>
+          <img class="full-image" src="img/copertina2017.png" />
         </div>
-      </div>
-        <div class="card">
-          <div class="item item-text-wrap">
-            <background-image url:"img\evento3.png">
-              <h1 style="color: red;">23 LUGLIO </h1>
-              <h3 style=" color: black;"><b>da BARI a MATERA</b> </h3>
-          </div>
+        <div class="item item-avatar" ui-sref="app.evento({'eventoId': prossimoEvento.id})">
+            <img ng-src="{{prossimoEvento.image}}" ng-if="prossimoEvento.image"/>
+            <p>Prossimo Evento</p>
+            <h2 class="toUpper">{{ prossimoEvento.luogo }}</h2>
+            <p class="red-text">{{ prossimoEvento.data }}</p>
         </div>
+    </div>
+
   </ion-content>
 
 </ion-view>
