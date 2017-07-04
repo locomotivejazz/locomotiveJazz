@@ -77,6 +77,7 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
   })
     .state('app.evento', {
       url: '/evento/:eventoId',
+      cache:false,
       views: {
         'menuContent': {
           templateUrl: 'templates/evento.html',

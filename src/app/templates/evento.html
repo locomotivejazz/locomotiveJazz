@@ -1,7 +1,7 @@
 <ion-view view-title="Info">
     <ion-content>
 
-    <h3>{{evento.titolo}}</h3>
+    <h3 class="data">{{evento.data}}</h3>
     <div ng-bind-html="evento.descrizione"></div>
 
        Inserisci l'elenco:
@@ -15,7 +15,7 @@
     <div ng-if="evento.isEventoInEvidenza">
       Evento in eviden
     </div>
-    <pre>
+     <pre>
         {{ evento | json }}
     </pre>
     </ion-content>
