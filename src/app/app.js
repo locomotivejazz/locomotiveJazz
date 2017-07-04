@@ -41,11 +41,11 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
       }
     })
 
-    .state('app.browse', {
-        url: '/browse',
+    .state('app.eventi', {
+        url: '/eventi',
         views: {
           'menuContent': {
-            templateUrl: 'templates/browse.html',
+            templateUrl: 'templates/eventi.html',
             controller: 'HomeCtrl'
           }
         }
@@ -59,7 +59,14 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
           }
         }
       })
-
+      .state('app.test', {
+        url: '/test',
+        views: {
+          'menuContent' : {
+            templateUrl: 'templates/test.html'
+          }
+        }
+      })
   .state('app.contatti', {
     url: '/contatti',
     views: {
