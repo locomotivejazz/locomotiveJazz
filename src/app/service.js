@@ -68,8 +68,8 @@ angular.module('locomotivejazz.service', [])
               {
                   luogo:">>Rettorato Università del Salento",
                   ore: "ore 22:00",
-                  descrizione: "<h4><b>PAOLO FRESU</b></h4>"+
-                               "<h4><b>'AROUND TUK'</b></h4>"+
+                  descrizione: "<h4 class='red-text'><b>PAOLO FRESU</b></h4>"+
+                               "<h4 class='red-text'><b>'AROUND TUK'</b></h4>"+
                                "<h5><b>PAOLO FRESU</b></h5>"+
                                "<p>tromba-flicorno-elettronica</p>"+
                                "<h5><b>RAFFAELE CASARANO</b></h5>"+
@@ -84,6 +84,9 @@ angular.module('locomotivejazz.service', [])
                                "<p>batteria</p>"
 
               },
+              {
+                  descrizione: "PREVENDITE SU BOOKINGSHOW.IT"
+              }
 
           ]
       },
