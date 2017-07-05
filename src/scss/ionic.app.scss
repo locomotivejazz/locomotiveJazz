@@ -37,6 +37,7 @@ $disabledcolor: #d5ccc0 !default;
 $errorcolor: #ff1800 !default;
 
 @import "style";
+@import "det_evento";
 
 // Include all of Ionic
 @import "src/lib/ionic/scss/ionic";
