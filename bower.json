@@ -3,14 +3,20 @@
   "private": "true",
   "dependencies": {
     "angular-filter": "^0.5.16",
-    "ionic": "driftyco/ionic-bower#1.2.4"
+    "ionic": "driftyco/ionic-bower#1.2.4",
+    "angular-mocks": "^1.6.4"
   },
   "overrides": {
-      "ionic": {
-          "main": ["js/ionic.bundle.min.js"]
-      },
-      "angular-filter":{
-          "dependencies": "ionic"
-      }
+    "ionic": {
+      "main": [
+        "js/ionic.bundle.min.js"
+      ]
+    },
+    "angular-filter": {
+      "dependencies": "ionic"
+    },
+    "angular-mocks": {
+      "dependencies": "ionic"
+    }
   }
 }

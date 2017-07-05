@@ -18,6 +18,27 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+
+$darkgrey: #666666 !default;
+$locomotivejazzcolor: #e9e4dd !default;
+$lightgrey: #dddddd !default;
+$bgsgrey: #968e84 !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+$green: #6ec829 !default;
+$red: red !default;
+
+$primarycolor: #b0291b !default;
+$primarycolordark: #5b0702 !default;
+
+$secondarycolor: #968e84 !default;
+
+$disabledcolor: #d5ccc0 !default;
+$errorcolor: #ff1800 !default;
+
+@import "style";
+
 // Include all of Ionic
 @import "src/lib/ionic/scss/ionic";
+
 

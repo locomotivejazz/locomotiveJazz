@@ -22,10 +22,10 @@ var paths = {
 paths.javascript = paths.sources + '/app/**/*.js';
 paths.html = paths.sources + '/app/**/*.html';
 paths.css = paths.sources + '/css/**/*.css';
-paths.sass = paths.sources + '/scss/**/*.scss';
+paths.sass = paths.sources + '/scss/ionic.app.scss';
 paths.static = [
-    paths.sources + '/img/*.*',
-    paths.sources + '/fonts/*.*',
+    paths.sources + '/img/**/*.*',
+    paths.sources + '/fonts/**/*.*',
     paths.sources + '/lib/ionic/fonts/*.*'
 ];
 

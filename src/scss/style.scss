@@ -1,0 +1,453 @@
+html, body, div, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, fieldset,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea{
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body{
+  background-color: $locomotivejazzcolor;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:$darkgrey;
+}
+
+button{
+  &.masquerade{
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+  }
+}
+
+.button{
+  &.button-positive{
+    background-color: $primarycolor!important;
+    &.active,
+    &.activated{
+      background-color: $primarycolor!important;
+    }
+  }
+}
+
+.primaryColor{
+  color: $primarycolor;
+}
+
+
+.black{
+  color:$black;
+}
+
+.red{
+  color:$red;
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+.no-margin{
+  margin:0!important;
+}
+
+.top0{
+  top:0!important;
+}
+
+.pull-left{
+  float:left;
+}
+
+.pull-right{
+  float:right;
+}
+
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+
+.no-padding{padding:0!important;}
+
+.no-background{background: none!important;}
+
+.no-ellipsis{
+  text-overflow: initial;
+  white-space: normal;
+}
+
+.line19{line-height: 1.9em!important;}
+.font09{font-size: 0.9em;line-height: 0.9em;}
+.font11{font-size:1.1em;line-height: 1.1em;}
+.font13{font-size:1.3em;line-height: 1.3em;}
+.font15{font-size: 1.5em;line-height: 1.5em;}
+
+.padding2{
+  padding: 2px;
+}
+
+.paddingTop15{
+  padding: 15px 0;
+}
+
+.paddingBottom0{
+  padding-bottom: 0!important;
+}
+
+.paddingTop0{
+  padding-top: 0;
+}
+
+.paddingTop15{
+  padding-top: 15px;
+}
+
+.paddingLeft10{
+  padding-left: 10px;
+}
+
+.paddingLeft50{
+  padding-left: 50px;
+}
+
+.paddingRight50{
+  padding-right: 50px;
+}
+
+.paddingBottom30{
+  padding-bottom: 30px;
+}
+
+
+.paddingBottom50{
+  padding-bottom: 50px;
+}
+
+.marginTop10{
+  margin-top: 10px;
+}
+
+.marginTop30{
+  margin-top: 30px;
+}
+
+.marginTop35{
+  margin-top: 35px;
+}
+
+.marginBottom10{
+  margin-bottom: 10px;
+}
+
+.marginBottom20{
+  margin-bottom: 20px;
+}
+
+.marginBottom40{
+  margin-bottom: 40px;
+}
+
+.marginLeft5{
+  margin-left: 5px;
+}
+
+.marginLeft10{
+  margin-left: 10px;
+}
+
+a {
+  color: $darkgrey;
+  text-decoration: none;
+  &:hover{
+    color: $darkgrey;
+    text-decoration: none;
+  }
+  &:focus{
+    color: $darkgrey;
+    text-decoration: none;
+  }
+}
+
+span, strong, p, a, input {
+  margin:0 0 0;
+  font-size: 1.0em;
+  font-weight: 300;
+}
+
+.toUpper{
+  text-transform: uppercase;
+}
+
+.toCap{
+  text-transform: capitalize;
+}
+
+.toNormal{
+  text-transform: none;
+}
+
+strong {
+  margin:0 0 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.header{
+  margin: 0px 20px;
+}
+
+.head-message {
+  padding: 20px;
+  margin: 30px 20px 0;
+  text-transform: uppercase;
+  height: 80px;
+}
+
+.item-input{
+  margin-bottom: 15px;
+}
+
+.bg-required {
+  position: relative;
+  margin-left: -25%;
+}
+
+/***************************************************************************************************
+
+***************************************************************************************************/
+
+@font-face { font-family: Roboto; font-weight: bold; src: url('fonts/Roboto-Bold.ttf'); }
+@font-face { font-family: Roboto; font-weight: bolder; src: url('fonts/Roboto-Black.ttf'); }
+@font-face { font-family: Roboto; font-weight: lighter; src: url('fonts/Roboto-Light.ttf'); }
+
+@font-face { font-family: Roboto; font-weight: 200; src: url('fonts/Roboto-Light.ttf'); }
+@font-face { font-family: Roboto; font-weight: 300; src: url('fonts/Roboto-Medium.ttf'); }
+@font-face { font-family: Roboto; font-weight: normal; src: url('fonts/Roboto-Regular.ttf'); }
+@font-face { font-family: Roboto; font-weight: 600; src: url('fonts/Roboto-BoldItalic.ttf');}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+input, button, select, textarea, body, .ionic-body, .tab-item {
+  font-family: Roboto;
+}
+
+/***************************************************************************************************
+ Parte da configurare per le icone dei pulsanti
+***************************************************************************************************/
+
+@font-face {
+  font-family: 'bgs';
+  src:  url('../fonts/BGS/bgs.eot?ncms1a');
+  src:  url('../fonts/BGS/bgs.eot?ncms1a#iefix') format('embedded-opentype'),
+  url('../fonts/BGS/bgs.ttf?ncms1a') format('truetype'),
+  url('../fonts/BGS/bgs.woff?ncms1a') format('woff'),
+  url('../fonts/BGS/bgs.svg?ncms1a#bgs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%bgs-cc-icons{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bgs' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgs-cc-ico-view:before {
+  /* esempio di configurazione di un pulsante */
+  @extend %bgs-cc-icons;
+  content: "\e900";
+}
+
+/***************************************************************************************************
+  Fine parte per la configurazione dei pulsanti (chiedere come creare i file svg)
+***************************************************************************************************/
+
+.circle-bg{
+  background-color: $lightgrey;
+  border-radius: 50px;
+  padding: 10px 13px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.favourite-toggle{
+  color:$disabledcolor;
+  font-size: 1.6em;
+}
+
+.container {
+  background-color: transparent;
+  text-align: center;
+  font-family: Dosis, Avenir;
+  font-size: 1.2em;
+}
+
+.row {
+  margin-left:0;
+  margin-right:0;
+}
+
+.clear {
+  clear: both;
+}
+
+.red-text { color: $primarycolor!important; }
+
+.red-error-text { color: $errorcolor!important; }
+
+.green-text { color: $green !important; }
+
+.green-number {
+  color: $green!important;
+  font-size: 26pt;
+  line-height: 28pt;
+  & a{
+    color: $green;
+  }
+}
+
+.red-number {
+  color: $primarycolor!important;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.bold-text { font-weight: bold; }
+
+
+.icon {
+  background-color: $disabledcolor;
+  border-radius:50%;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  padding:1vmin;
+  width: 10vw!important;
+  height: 10vw!important;
+
+}
+
+h1 {
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-bottom: 15px;
+  color: $primarycolor;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: $white;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 25px;
+  font-size: 1.2em;
+  line-height: 16pt;
+  text-decoration: none;
+  min-height: 0;
+  & a{
+    color: $white;
+    text-decoration: none;
+  }
+  &:hover,
+  &:focus,
+  &.focus{
+    color: $darkgrey;
+  }
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-active { background-color: $bgsgrey; }
+
+.btn-noactive { background-color: $disabledcolor; }
+
+.btn-bottom {
+  border:0;
+  color: $white;
+  padding: 1vh 8vw;
+  margin: 1vh 0 !important;
+  border-radius: 25px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-align: center;
+  min-height:0;
+  min-width: 35vw;
+  font-size: 1em;
+  & a{
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  background: $primarycolor;
+  & a {
+    color: $white;
+  }
+}
+
+.btn-secondary {
+  background: $secondarycolor;
+  & a {
+    color: $white;
+  }
+}
+
+.btn-lightred { background: #af2b24; }
+
+.btn-gray { background: #99a4a7; }
+
+.btn-blue { background: #314850; }
+
+.no-ellipsis{
+  & h2,
+  & p,
+  & span{
+    overflow: initial !important;
+    text-overflow: initial !important;
+    white-space: normal !important;
+  }
+}
+
+.scroll-view{
+  &.scroll-y {
+    overflow-y: auto;
+  }
+  &.scroll-x{
+    overflow-x:scroll!important;
+  }
+}
+
+.pane{
+  background-color: transparent;
+}
+
+.buttons{
+  &.header-item {
+    padding-top: 15px;
+  }
+}
