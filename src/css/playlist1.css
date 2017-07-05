@@ -7,10 +7,21 @@ color: red;
 .titolo{
   background-color:black;
   color:white;
+      margin: 1px 25px 1px;
 }
 .edificio{
   color:dodgerblue;
 }
 .generale_specifica{
   text-align: center;
+}
+.header1{
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+
+}
+.linea{
+      background-color: red;
+      margin: 1px 60px 1px;
 }

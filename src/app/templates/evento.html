@@ -1,6 +1,10 @@
 <ion-view view-title="Info">
     <ion-content>
+      <div class="header">
+        <img class="header1" src="img\header_singolo_evento.PNG"> </img>
+      </div>
 <div class="generale_specifica">
+
     <h2 class="data">{{evento.data}}</h2>
     <div ng-bind-html="evento.descrizione"></div>
 
@@ -10,7 +14,9 @@
     <div ng-repeat="card in evento.programma">
 
         <h4>{{ card.ore }}</h4>
+
           <div ng-bind-html="card.descrizione"></div>
+          <hr class="linea"></hr>
     </div>
 
 
