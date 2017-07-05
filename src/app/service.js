@@ -66,7 +66,7 @@ angular.module('locomotivejazz.service', [])
 
               },
               {
-                  luogo:">>Rettorato Università del Salento"
+                  luogo:">>Rettorato Università del Salento",
                   ore: "ore 22:00",
                   descrizione: "<h4><b>PAOLO FRESU</b></h4>"+
                                "<h4><b>'AROUND TUK'</b></h4>"+
