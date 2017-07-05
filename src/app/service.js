@@ -93,7 +93,8 @@ angular.module('locomotivejazz.service', [])
       {
           image:'img/evento3.png',
           id: 3,
-          titolo: "FROM STATION TO STATION VINTAGE EDITION 2017",
+          titolo: "FROM STATION TO STATION "+
+                  "VINTAGE EDITION 2017",
           data: "23 LUGLIO",
           luogo: "da BARI a MATERA",
           luogoMaps: {
@@ -148,6 +149,65 @@ angular.module('locomotivejazz.service', [])
                   descrizione: "PREVENDITE SU BOOKINGSHOW.IT"
               }
 
+          ]
+      },
+      {
+          image:'img/event1.png',
+          id: 4,
+          titolo: "PUNTI DI SVOLTA",
+          data: "24 LUGLIO",
+          luogo: "LECCE",
+          luogoMaps: {
+              lat: 343,
+              log: 3434,
+
+          },
+          programma: [
+              {
+
+                  descrizione: "<p> SEMINARIO DI FOTOGRAFIA</p>"+
+                               "<p >a cura di <b>ANDREA BOCCALINI</b> </p>"+
+                               "<p >e <b>FLAVIO & FRANK</b> </p>"+
+                               "<p>Il ritratto fotografico attraverso un percorso </p>"+
+                               "<p>parte dalla musica pop e passando dal rock, </p>"+
+                               "<p>al jazz arriva al reportage e alla moda. Un </p>"+
+                               "<p>viaggio in cui Flavio e Frank insieme ad Andrea</p>"+
+                               "<p>Boccalini, partendo dalle loro esperienze </p>"+
+                               "<p>umane e professionali vi condurranno alla </p>"+
+                               "<p>scoperta della ritrattistica in chiave narrativa e </p>"+
+                               "<p>concettuale. <b> I partecipanti saranno coinvolti in </b></p>"+
+                               "<p><b>un progetto di ritrattistica legato al Lcomotive </b></p>"+
+                               "<p><b>Jazz Festival.</b></p>"
+              },
+              {
+
+                  luogo: "» Sala Conferenze LINLKS-MT",
+                  descrizione: "(Via Rocco Scotellaro, 55)"
+              },
+              {
+                  descrizione: "Rinfresco"
+              },
+              {
+                  descrizione: "<p>Ai partecipanti verrà fornito un </p>"+
+                               "<p class='red-text'>Pass 'ALL AREAS LOCOMOTIVE' </p>"+
+                               "<p>che garantisce l’accesso a tutti</p>"+
+                               "<p>gli eventi in programma</p>"
+              },
+              {
+                  descrizione: "<p class='background-color:black; color:white' >INFO E ISCRIZIONI</p>"+
+                               "<p>e-mail: info@locomotivejazzfestival.it"+
+                               "<p>tel: +39 345 1089622</p>"
+              },
+              {
+                  descrizione: "<p class='red-text'></p>"+
+                               "<p>Bonifico bancario</p>"+
+                               "<p><b>BANCA:</b> Banca Sella, filiale di Maglie</p>"+
+                               "<p><b>IBAN:</b> IT 64 T 03268 79720 05275 2631960</p>"+
+                               "<p><b>CAUSALE:</b> 'Nome e Cognome, iscrizione</p>"+
+                               "<p>seminario di fotografia Locomotive' </p>"+
+                               "<p>inviare un'email con copia del bonifico all'indirizzo</p>"+
+                               "<p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
+              }
           ]
       },
     ];
