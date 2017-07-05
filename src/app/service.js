@@ -44,199 +44,49 @@ angular.module('locomotivejazz.service', [])
       {
           image:'img/evento2.png',
           id: 2,
-          titolo: "La musica nasce dalle periferie",
-          data: "22 Luglio",
-          luogo: "Monteroni di Lecce",
+          titolo: "LA MUSICA NASCE DALLE PERIFERIE",
+          data: "22 LUGLIO",
+          luogo: "LECCE",
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: "Palazzo Baronale"
+              titolo: ">>Piazza Sant'Oronzo - Mosaico della Lupa"
           },
           programma: [
               {
-                  ore: "11:00",
-                  descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
+                  ore: "ore 19:00/INGRESSO LIBERO",
+                  descrizione: "<p> sonorizzazione restauro <i>de La Lupa</i>  </p>"+
+                               "<p> con <b>DINO RUBINO</b> piano solo  </p>"
               },
               {
-                  ore: "20:30",
-                  descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
-              }
+                  luogo:">>Basilica di Santa Croce",
+                  ore: "ore 19:30/INGRESSO LIBERO",
+                  descrizione: "<p> sonorizzazione restauro Basilica di Santa Croce </p>"+
+                                "<p> con <b>PAOLO FRESU</b> solo  </p>"
+
+              },
+              {
+                  luogo:">>Rettorato Università del Salento"
+                  ore: "ore 22:00",
+                  descrizione: "<h4><b>PAOLO FRESU</b></h4>"+
+                               "<h4><b>'AROUND TUK'</b></h4>"+
+                               "<h5><b>PAOLO FRESU</b></h5>"+
+                               "<p>tromba-flicorno-elettronica</p>"+
+                               "<h5><b>RAFFAELE CASARANO</b></h5>"+
+                               "<p>sax contralto,soprano,elettronica</p>"+
+                               "<h5><b>DINO RUBINO</b></h5>"+
+                               "<p>piano e tromba</p>"+
+                               "<h5><b>MIRKO SIGNORILE</b></h5>"+
+                               "<p>piano</p>"+
+                               "<h5><b>MARCO BARDOSCIA</b></h5>"+
+                               "<p>contrabbasso</p>"+
+                               "<h5><b>ENRICO MORELLO</b></h5>"+
+                               "<p>batteria</p>"
+
+              },
+
           ]
       },
-    {
-        image:'img/evento3.png',
-        id: 3,
-        titolo: "La musica nasce dalle periferie",
-        data: "22 agosto",
-        luogo: "Monteroni di Lecce",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Palazzo Baronale"
-        },
-        programma: [
-            {
-                ore: "11:00",
-                descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
-            },
-            {
-                ore: "20:30",
-                descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
-            }
-        ]
-    },
-    {
-        image:'img/event1.png',
-        id: 4,
-        titolo: "La musica nasce dalle periferie",
-        data: "14 Luglio",
-        luogo: "Monteroni di Lecce",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Palazzo Baronale"
-        },
-        programma: [
-            {
-                ore: "11:00",
-                descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
-            },
-            {
-                ore: "20:30",
-                descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
-            }
-        ]
-    },
-    {
-        image:'img/event1.png',
-        id: 5,
-        titolo: "La musica nasce dalle periferie",
-        data: "14 Luglio",
-        luogo: "Monteroni di Lecce",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Palazzo Baronale"
-        },
-        programma: [
-            {
-                ore: "11:00",
-                descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
-            },
-            {
-                ore: "20:30",
-                descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
-            }
-        ]
-    },
-    {
-        image:'img/event1.png',
-        id: 6,
-        titolo: "LA MUSICA NASCE DALLE PERIFERIE",
-        data: "27 LUGLIO",
-        luogo: "ACAYA-VERNOLE (LE)",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Castello di Acaya"
-        },
-        programma: [
-            {
-                ore: "20:30/INGRESSO LIBERO",
-                descrizione: "<p>PURPLE WHALES – JIMI HENDRIX               </p>"+
-                             "<p>SIMONE GRAZIANO Fender Rhodes, piano, synth</p>"+
-                             "<p>ALESSANDRO LANZONI Fender Rhodes, piano    </p>"+
-                             "<p>NAOMI BERRILL voce, violoncello            </p>"+
-                             "<p>FRANCESCO BIGONI sax tenore                </p>"+
-                             "<p>STEFANO TAMBORRINO batteria                </p>"+
-                             "<p>DIMITRI GRECHI ESPINOZA sax                </p>"
-            },
-            {
-                ore: "23:30",
-                descrizione: "FEDERICO ZAMPAGLIONE ospite speciale",
-                titolo: "NOTTE LOCOMOTIVE 2017",
-                luogo: "PARCO NATURALE DELLE CESINE VERNOLE (LE)",
-                luogoMaps: {
-                    lat: 343,
-                    log: 3434,
-                    titolo: "strada bianca"
-                }
-            }
-        ]
-    },
-    {
-        image:'img/event1.png',
-        id: 7,
-        titolo: "",
-        data: "28 LUGLIO",
-        luogo: "TRICASE (LE)",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Masseria Abbracciavento, C.da Cupole"
-        },
-        programma: [
-            {
-                ore: "22:00/INGRESSO LIBERO",
-                descrizione: "<p>letture a cura del prof. GIGI MANGIA</p>"+
-                             "<p>‘DA QUESTA PARTE DEL MARE’</p>"+
-                             "<p>(letture tratte dal libro di GianMaria Testa)</p>"+
-                             "<p>jam session live, dj set, aspettando l’Alba Locomotive</p>",
-                titolo: "ALBA LOCOMOTIVE 2017",
-                luogo: "",
-                luogoMaps: {
-                    lat: 343,
-                    log: 3434,
-                    titolo: "marina serra"
-                }
-            },
-            {
-
-                ore: "4:00 (nella notte tra il 28 e il 29 luglio)",
-                descrizione: "<p>NOA & BAND </p>" +
-                "<p>“LOVE MEDICINE” </p>"+
-                    "<p>NOA voce e percussioni </p>"+
-                "<p>GIL DOR chitarra e dir. musicale </p>"+
-                    "<p>ADAM BEN-EZRA contrabbasso </p>"+
-                "<p>GADI SERI percussioni </p>"
-            }
-        ]
-    },
-    {
-        image:'img/event1.png',
-        id: 8,
-        titolo: "dreher night",
-        data: "29 LUGLIO",
-        luogo: "LECCE",
-        luogoMaps: {
-            lat: 343,
-            log: 3434,
-            titolo: "Anfiteatro Romano"
-        },
-        programma: [
-                {
-                    ore: "21:00",
-                    descrizione: "<p>OPEN STAGE LUCA BANDIRALI & GUESTS</p><p> 'Street Selecta Part 1'  </p>",
-                    titolo: "ALBA LOCOMOTIVE 2017",
-                    luogo: "",
-                    luogoMaps: {
-                        lat: 343,
-                        log: 3434,
-                        titolo: "marina serra"
-                    }
-                },
-                {
-
-                    ore: "4:00 (nella notte tra il 28 e il 29 luglio)",
-                    descrizione: "<p>NOA & BAND </p>"+
-                                 "<p>“LOVE MEDICINE” </p>"+
-                                 "<p>NOA voce e percussioni </p>"+
-                                 "<p>GIL DOR chitarra e dir. musicale </p>"+
-                                 "<p>ADAM BEN-EZRA contrabbasso </p>"+
-                                 "<p>GADI SERI percussioni </p>"
-                }
-            ]
-        }
     ];
 
     servizio.getEventi = function(){
