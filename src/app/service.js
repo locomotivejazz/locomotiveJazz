@@ -24,15 +24,15 @@ angular.module('locomotivejazz.service', [])
               },
               {
                   ore: "ore 20:30",
-                  descrizione: "Consegna premio"+
-                                "Ricerca e innovazione 2017-Città di Monteroni"+
+                  descrizione: "Consegna premio" +
+                                "Ricerca e innovazione 2017-Città di Monteroni" +
                                 "Consegna premio"
-              }
+              },
               {
                   ore: "ore 21:30/INGRESSO LIBERO",
                   descrizione: "DANILO REA"+
                                 "Piano solo"
-              }
+              },
               {
                   ore: "dalle ore 23:00 in poi",
                   descrizione: "AFTER CONCERT"+
