@@ -1,7 +1,7 @@
 <ion-view view-title="Info">
     <ion-content>
       <div class="header">
-        <img src="img\header_singolo_evento.PNG"> </img>
+        <img class="header1" src="img\header_singolo_evento.PNG"> </img>
       </div>
 <div class="generale_specifica">
 
@@ -14,7 +14,9 @@
     <div ng-repeat="card in evento.programma">
 
         <h4>{{ card.ore }}</h4>
+
           <div ng-bind-html="card.descrizione"></div>
+          <hr class="linea"></hr>
     </div>
 
 
