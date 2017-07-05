@@ -208,22 +208,22 @@ angular.module('locomotivejazz.service', [])
                                  "<p> 'Street Selecta Part 1'  </p>"
                 },
               ]
-              titolo: "ALBA LOCOMOTIVE 2017",
+              titolo: "LOCOMOTIVE GIOVANI 2017",
               luogo: "",
               luogoMaps: {
                   lat: 343,
                   log: 3434,
-                  titolo: "marina serra"}
+                  titolo: ""}
                 programma2:[
                 {
 
-                    ore: "4:00 (nella notte tra il 28 e il 29 luglio)",
-                    descrizione: "<p>NOA & BAND </p>"
-                                 "<p>“LOVE MEDICINE” </p>"
-                                 "<p>NOA voce e percussioni </p>"
-                                 "<p>GIL DOR chitarra e dir. musicale </p>"
-                                 "<p>ADAM BEN-EZRA contrabbasso </p>"
-                                 "<p>GADI SERI percussioni </p>"
+                    ore: "21:30 (nella notte tra il 28 e il 29 luglio)",
+                    descrizione: "<p>Davide De luca voce </p>"
+                                 "<p> </p>"
+                                 "<p></p>"
+                                 "<p> </p>"
+                                 "<p> </p>"
+                                 "<p> </p>"
                 },
             ]
         },
