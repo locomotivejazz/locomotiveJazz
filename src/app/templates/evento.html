@@ -1,18 +1,18 @@
 <ion-view view-title="Info">
     <ion-content>
 
-    <h3 class="data">{{evento.data}}</h3>
+    <h2 class="data">{{evento.data}}</h2>
     <div ng-bind-html="evento.descrizione"></div>
 
        Inserisci l'elenco:
     <div ng-repeat="card in evento.programma">
-        Prova
+        <h2>{{ card.ore }}</h2>
         <div ng-bind-html="card.descrizione">
 
         </div>
     </div>
 
-    
+
 
     </ion-content>
 </ion-view>

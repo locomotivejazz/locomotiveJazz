@@ -9,9 +9,9 @@ angular.module('locomotivejazz.service', [])
       {
           image:'img/event1.png',
           id: 1,
-          titolo: "La musica nasce dalle periferie",
-          data: "14 Luglio",
-          luogo: "Monteroni di Lecce",
+          titolo: "LA MUSICA NASCE DALLE PERIFERIE",
+          data: "14 LUGLIO",
+          luogo: "MONTERONI DI LECCE",
           luogoMaps: {
               lat: 343,
               log: 3434,
