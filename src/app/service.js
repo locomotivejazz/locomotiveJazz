@@ -20,25 +20,25 @@ angular.module('locomotivejazz.service', [])
           programma: [
               {
                   ore: "ore 11:00",
-                  descrizione: "conferenza La Musica nasce dalle Periferie  in collaborazione con Università del Salento"
+                  descrizione: "conferenza La Musica nasce dalle Periferie  <p> in collaborazione con Università del Salento </p>"
               },
               {
                   ore: "ore 20:30",
-                  descrizione: "Consegna premio" +
-                                "Ricerca e innovazione 2017-Città di Monteroni" +
-                                "Consegna premio"
+                  descrizione: "<p>Consegna premio</p>" +
+                                "<p><b>Ricerca e innovazione 2017-Città di Monteroni</b> </p>" +
+                                   "<p>Riconoscimento alle eccellenze dell'Università del Salento</p>"
               },
               {
                   ore: "ore 21:30/INGRESSO LIBERO",
-                  descrizione: "DANILO REA"+
+                  descrizione: "<h4><b>DANILO REA</b></h4>"+
                                 "Piano solo"
               },
               {
                   ore: "dalle ore 23:00 in poi",
-                  descrizione: "AFTER CONCERT"+
-                                "presso CANTINA APPOLONIO"+
-                                "Jam session live"
-              }
+                  descrizione: "<b>AFTER CONCERT</b>"+
+                                "<p>presso CANTINA APPOLONIO</p>"+
+                                "<p>Jam session live</p>"
+              },
           ]
       },
       {
