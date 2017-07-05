@@ -19,6 +19,9 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 
+
+$dodgerblue: #1e90ff !default;
+$deepskyblue: #00bfff !default;
 $darkgrey: #666666 !default;
 $locomotivejazzcolor: #e9e4dd !default;
 $lightgrey: #dddddd !default;
@@ -41,5 +44,3 @@ $errorcolor: #ff1800 !default;
 
 // Include all of Ionic
 @import "src/lib/ionic/scss/ionic";
-
-

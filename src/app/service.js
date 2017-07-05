@@ -15,16 +15,29 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: "Palazzo Baronale"
+              titolo: ">>Palazzo Baronale"
           },
           programma: [
               {
-                  ore: "11:00",
-                  descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
+                  ore: "ore 11:00",
+                  descrizione: "conferenza La Musica nasce dalle Periferie  in collaborazione con Università del Salento"
               },
               {
-                  ore: "20:30",
-                  descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
+                  ore: "ore 20:30",
+                  descrizione: "Consegna premio"+
+                                "Ricerca e innovazione 2017-Città di Monteroni"+
+                                "Consegna premio"
+              }
+              {
+                  ore: "ore 21:30/INGRESSO LIBERO",
+                  descrizione: "DANILO REA"+
+                                "Piano solo"
+              }
+              {
+                  ore: "dalle ore 23:00 in poi",
+                  descrizione: "AFTER CONCERT"+
+                                "presso CANTINA APPOLONIO"+
+                                "Jam session live"
               }
           ]
       },

@@ -3,6 +3,14 @@ text-align: center;
 }
 .data{
 color: red;
-
-
+}
+.titolo{
+  background-color:black;
+  color:white;
+}
+.edificio{
+  color:dodgerblue;
+}
+.generale_specifica{
+  text-align: center;
 }
