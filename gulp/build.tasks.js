@@ -10,6 +10,7 @@ var rename = require('gulp-rename');
 var angularFilesort = require('gulp-angular-filesort');
 var templateCache = require('gulp-angular-templatecache');
 var mainBowerFiles = require('main-bower-files');
+var jshint = require('gulp-jshint');
 
 var sass = require('gulp-sass');
 
@@ -37,6 +38,8 @@ paths.destvendor = paths.dest + '/vendor';
 
 gulp.task('build:js:compact',function(cb){
     gulp.src(paths.javascript)
+        .pipe(jshint('.jshintrc'))
+        .pipe(jshint.reporter('jshint-stylish'))
         .pipe(angularFilesort())
         .pipe(concat('app.js'))
         .pipe(gulp.dest(paths.destjs))

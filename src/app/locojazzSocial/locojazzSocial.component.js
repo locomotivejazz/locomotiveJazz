@@ -11,7 +11,7 @@ angular.module("locomotivejazz").component('locojazzSocial',{
 
         this.openTwitter = function(){
             alert("Funzione non ancora implementata");
-        }
+        };
     }
 
 

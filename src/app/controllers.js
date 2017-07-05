@@ -7,7 +7,7 @@ angular.module('starter.controllers', [])
 .controller('HomeCtrl', function($scope, $state, $filter, EventiServizio ) {
   $scope.vaiDettaglioEvento = function(evento){
     console.log("Ho ricevuto il click su: ", evento);
-    $state.go("app.evento",{eventoId: evento.id})
+    $state.go("app.evento",{eventoId: evento.id});
   };
 
   $scope.eventi = EventiServizio.getEventi();
