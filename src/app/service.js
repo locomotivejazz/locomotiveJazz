@@ -24,7 +24,22 @@ angular.module('locomotivejazz.service', [])
               },
               {
                   ore: "20:30",
-                  descrizione: "conferenza \"La Musica nasce dalle Periferie\"<br/> in collaborazione con Università del Salento"
+                  descrizione: "<p>Consegna Premio</p>"
+                                "<b> Ricerca e Innovazione 2017 - Città di Monteroni </b>"
+                                 "<p>"Riconoscimento alle eccellenze dell Università del Salento"</p> "
+
+
+              },
+              {
+                  ore: "21:30/ingresso libero",
+                  descrizione: "<p>DANILO REA</p>"
+                                "<p>piano solo</p>"
+              },
+              {
+                  ore: "dalle ore 23:00 in poi",
+                  descrizione: "<p>AFTER CONCERT</p>"
+                                "<p>presso CANTINA APOLLONIO</p>"
+                                "<p>'Jam session live'</p>"                                 
               },
           ]
       },
@@ -119,18 +134,18 @@ angular.module('locomotivejazz.service', [])
         {
             image:'img/event1.png',
             id: 6,
-            titolo: "La musica nasce dalle periferie",
-            data: "14 Luglio",
-            luogo: "Monteroni di Lecce",
+            titolo: "LA MUSICA NASCE DALLE PERIFERIE",
+            data: "27 LUGLIO",
+            luogo: "ACAYA-VERNOLE (LE)",
             luogoMaps: {
                 lat: 343,
                 log: 3434,
-                titolo: "Palazzo Baronale"
+                titolo: "Castello di Acaya"
             },
             programma: [
                 {
-                    ore: "11:00",
-                    descrizione: "conferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
+                    ore: "20:30/INGRESSO LIBERO",
+                    descrizione: "coferenza <i>\"La Musica nasce dalle Periferie\"</i><br/> in collaborazione con Università del Salento"
                 },
                 {
                     ore: "20:30",
