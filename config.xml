@@ -73,14 +73,11 @@
         <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     </platform>
-    <plugin name="ionic-plugin-keyboard" spec="~2.0.1" />
-    <plugin name="cordova-plugin-ignore-lint-translation" spec="~0.0.1" />
-    <plugin name="cordova-plugin-console" version="1.0.2" />
-    <plugin name="cordova-plugin-device" version="1.1.1" />
-    <plugin name="cordova-plugin-statusbar" version="2.1.1" />
-    <plugin name="cordova-plugin-whitelist" version="1.2.1" />
-    <plugin name="cordova-plugin-x-socialsharing" version="5.1.2" />
-    <plugin name="cordova-plugin-app-version" spec="https://github.com/whiteoctober/cordova-plugin-app-version.git" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <plugin name="cordova-plugin-ignore-lint-translation" spec="0.0.1" />
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.1.1" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.2.1" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="^5.1.2" />
+    <plugin name="ionic-plugin-keyboard" spec="^2.0.1" />
 </widget>
