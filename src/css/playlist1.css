@@ -25,3 +25,9 @@ color: red;
       margin: 1px 60px 1px;
       padding: 1px;
 }
+.ion-card{
+  color: black;
+  text-align: left;
+  width: 100px;
+  height:100px;
+}
