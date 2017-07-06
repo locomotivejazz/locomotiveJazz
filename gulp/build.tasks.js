@@ -36,10 +36,16 @@ paths.destjs = paths.dest + '/js/';
 paths.destcss = paths.dest+ '/css';
 paths.destvendor = paths.dest + '/vendor';
 
-gulp.task('build:js:compact',function(cb){
+gulp.task('build:js:hint',function(cb){
     gulp.src(paths.javascript)
         .pipe(jshint('.jshintrc'))
         .pipe(jshint.reporter('jshint-stylish'))
+        .pipe(jshint.reporter("fail"))
+        .on('end',cb);
+});
+
+gulp.task('build:js:compact',function(cb){
+    gulp.src(paths.javascript)
         .pipe(angularFilesort())
         .pipe(concat('app.js'))
         .pipe(gulp.dest(paths.destjs))
