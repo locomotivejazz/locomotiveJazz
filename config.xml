@@ -83,4 +83,5 @@
     <plugin name="cordova-plugin-app-version" spec="https://github.com/whiteoctober/cordova-plugin-app-version.git" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
+    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="~4.0.0" />
 </widget>
