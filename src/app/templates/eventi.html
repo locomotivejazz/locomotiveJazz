@@ -3,6 +3,7 @@
 
       <div class="list card" ng-repeat="evento in eventi">
         <div class="item item-avatar" ng-click="vaiDettaglioEvento(evento)">
+            <img style="text-align:left;width: 40px; height: 40px;" src="img\logo-locomotive-01.png"> </img>
             <h2>{{ evento.data | date: 'dd/MM/yyyy'}}</h2>
             <h3>{{ evento.titolo}}</h3>
         </div>
