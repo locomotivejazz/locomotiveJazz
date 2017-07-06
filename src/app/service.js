@@ -152,7 +152,7 @@ angular.module('locomotivejazz.service', [])
           ]
       },
       {
-          image:'img/event1.png',
+          image:'img\SEMINARIO-FOTOGRAFIA.jpg',
           id: 4,
           titolo: "PUNTI DI SVOLTA",
           data: "24 LUGLIO",
