@@ -68,6 +68,7 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
           }
         }
       })
+
       .state('app.ambiente', {
         url: '/ambiente',
         views: {
