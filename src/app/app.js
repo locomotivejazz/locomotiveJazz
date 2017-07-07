@@ -59,11 +59,12 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
           }
         }
       })
-      .state('app.test', {
-        url: '/test',
+
+      .state('app.card', {
+        url: '/card',
         views: {
-          'menuContent' : {
-            templateUrl: 'templates/test.html'
+          'menuContent': {
+            templateUrl: 'templates/card.html'
           }
         }
       })
