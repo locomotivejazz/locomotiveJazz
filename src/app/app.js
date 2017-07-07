@@ -68,6 +68,16 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
           }
         }
       })
+      .state('app.ambiente', {
+        url: '/ambiente',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/ambiente.html',
+            cache:false
+          }
+        }
+      })
+
   .state('app.contatti', {
     url: '/contatti',
     views: {
