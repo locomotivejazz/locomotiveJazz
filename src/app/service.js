@@ -116,8 +116,7 @@ angular.module('locomotivejazz.service', [])
                                "<p> <b>MIRKO SIGNORILE</b> piano solo </p>"
               },
               {
-                  titolo:"<p> TRILOGIA </p>"+
-                  "<p>TRAMONTO LOCOMOTIVE 2017</p>",
+                  titoli:" TRILOGIA/TRAMONTO LOCOMOTIVE 2017",
                   ore: "ore 17:30/Partenza TRENO",
                   descrizione: "<p> prima sosta Grumo Appula </p>"+
                                 "<p> seconda sosta (degustazione) Altamura  </p>"
@@ -210,6 +209,99 @@ angular.module('locomotivejazz.service', [])
                                "<p>seminario di fotografia Locomotive' </p>"+
                                "<p>inviare un'email con copia del bonifico all'indirizzo</p>"+
                                "<p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
+              }
+          ]
+      },
+      {
+          image:'img/trio-tosca.jpg',
+          id: 5,
+          titolo: "LA MUSICA NASCE DALLE PERIFERIE ",
+          data: "26 LUGLIO",
+          luogo: "GIURDIGNANO (LE)",
+          luogoMaps: {
+              lat: 343,
+              log: 3434,
+              titolo: ""
+
+          },
+          programma: [
+              {
+                  luogo: ">>Palazzo Baronale",
+                  ore: "ore 18:00/INGRESSO LIBERO",
+                  descrizione: "<p> Incontro con Raffaele Casarano, Ada  </p>"+
+                               "<p> Montellanico (presidente Midj Italia) e giovani  </p>"+
+                               "<p> studenti di Giurdignano: <i>“La musica nella vita </p>"+
+                               "<p>  di una periferia”</i> a seguire passeggiata sonora </p>"+
+                               "<p>  e gastronomica verso il Giardino Megalitico. </p>"
+              },
+              {
+                  luogo: ">>Giardino Megalitico di Europa",
+                  ore: "ore 21:00/INGRESSO LIBERO",
+                  descrizione: "<p> concerto <i>\"LUMINA\"</i> (anteprima Tulk Music) </p>"+
+                               "<p> <b>CARLA CASARANO</b> voce  </p>"+
+                               "<p> <b>LEILA SHIRVANI</b> violoncello  </p>"+
+                               "<p> <b>WILLIAM GRECO</b> piano  </p>"+
+                               "<p> <b>MARCO BARDOSCIA</b> contrabbasso </p>"+
+                               "<p> <b>EMANUELE MANISCALCO</b> batteria  </p>"+
+                               "<h6> In collaborazione con azienda vinicola Toscana Tenuta Frescobaldi.</h6>"
+
+              },
+              {
+
+                  ore: "ore 22:00/INGRSSO LIBERO",
+                  descrizione: "<p>Concerto \"Abbey's Road\"</p>"+
+                               "<p> <b> ADA MONTELLANICO band</b></p>"+
+                               "<p>guest <b>GIOVANNI FALZONE</b></p>"+
+                               "<p> con <b>MATTEO BORTONE</b> contrabbasso </p>"+
+                               "<p><b>FILIPPO VIGNATO</b> trombone</p>"+
+                               "<p><b>ERMANNO BARON</b> batteria </p>"+
+                               "<p><i> omaggio alla grande Abbey Lincoln.</i></p>"
+              },
+              {
+                  ore: "ore 23:00/INGRESSO LIBERO",
+                  descrizione: "<p> <i>\"UM BRASIL DIFERENTE\"</i> </p>"+
+                               "<p><b>GABRIELE MIRABASSI</b> clarinetto  </p>"+
+                               "<p><b>ROBERTO TAUFIC</b> chitarra </p>"+
+                               "<p>feat. <b>TOSCA</b></p>"
+              }
+          ]
+      },
+      {
+          image:'img/zampaglione.jpg',
+          id: 6,
+          titolo: "LA MUSICA NASCE DALLE PERIFERIE",
+          data: "27 LUGLIO",
+          luogo: "ACAYA (LE) E PARCO NATURALE"+
+                 "DELLE CESINE",
+          luogoMaps: {
+              lat: 343,
+              log: 3434,
+          },
+          programma: [
+              {
+                  luogo: ">>Castello di Acaya",
+                  ore:"ore 11:00/INGRESSO LIBERO",
+                  descrizione: "<p> PURPLE GRAZIANO - JIMI HENDRIX</p>"+
+                               "<p> <b>SIMONE GRAZIANO</b> Fender Rhodes, piano, </p>"+
+                               "<p >synth</p>"+
+                               "<p><b>ALESSANDRO LANZONI</b> Fender Rhodes, </p>"+
+                               "<p>piano </p>"+
+                               "<p><b>NAOMI BERRILL</b> voce, violoncello </p>"+
+                               "<p><b>FRANCESCO BIGONI</b> sax tenore</p>"+
+                               "<p><b> STEFANO TAMBORRINO </b> batteria </p>"
+              },
+              {
+                  titoli: "TRILOGIA/NOTTE LOCOMOTIVE 2017",
+                  luogo: "» Parco Naturale delle Cesine, Strada Bianca",
+                  ore: "ore:23:30/INGRESSO LIBERO",
+                  descrizione: "<p><b>FEDERICO ZAMPAGLIONE</b> ospite speciale<p>"+
+                               "<p>'NOTTE LOCOMOTIVE 2017'</p>"+
+                               "<p> Il Locomotive sostiene la tutela del</p>"+
+                               "<p> territorio e la salvaguardia dei luoghi</p>"+
+                               "<p> naturali. Per accededere all'area evento è </p>"+
+                               "<p> necessario ritirare i sacchetti ecologici</p>"+
+                               "<p>al costo di 1€. Grazie della </p>"+
+                               "<p> collaborazione.</p>"
               }
           ]
       },
