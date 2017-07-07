@@ -1,29 +1,44 @@
+body{
+  color: #5f5f63 !important;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+p{
+  padding: 2px 5px;
+}
+
+
+
+
+
+
 .list-card{
-text-align: center;
+  text-align: center;
 }
 .data{
-color: red;
+  color: #ec0000;
 }
 .titolo{
-  background-color:black;
-  color:white;
-      margin: 1px 25px 1px;
+  background: #000;
+  color: #fff;
+  margin: 1px 25px;
 }
 .edificio{
-  color:dodgerblue;
+  color: dodgerblue;
 }
 .generale_specifica{
   text-align: center;
 }
-.header1{
-         max-width: 100%;
-         width: auto;
-         height: auto;
+img.header1{
+ max-width: 100%;
+ width: auto;
+ height: auto;
 }
 .linea{
-      background-color: red;
-      margin: 1px 60px 1px;
-      padding: 1px;
+  background-color: #ec0000;
+  margin: 10px 60px;
 }
 .ion-card{
   color: black;
@@ -35,5 +50,9 @@ color: red;
   max-width: 250px;
 }
 .social-link{
+  color: #ec0000;
+  display: inline-block;
+}
+.hr{
   color: #ec0000;
 }
