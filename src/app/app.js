@@ -77,6 +77,14 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
       }
     }
   })
+  .state('app.card', {
+    url: '/card',
+    views: {
+      'menuContent' : {
+        templateUrl: 'templates/card.html'
+      }
+    }
+  })
     .state('app.evento', {
       url: '/evento/:eventoId',
       cache:false,
