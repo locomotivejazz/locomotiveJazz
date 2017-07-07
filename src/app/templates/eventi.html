@@ -11,7 +11,7 @@
             <img ng-src="{{evento.image}}" >
         </div>
 
-        <a class="item item-icon-left assertive"  href="#"><i class="ion-card"></i>
+        <a class="item item-icon-left assertive"   ng-if="evento.link" ng-click="acquistaPrevendita()"><i class="ion-card"></i>
           <<< Acquista Prevendita
         </a>
       </div>

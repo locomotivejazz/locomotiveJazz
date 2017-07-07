@@ -21,6 +21,8 @@ angular.module('starter.controllers', [])
     console.log("Parametro dell'evento:", idEvento);
 
     $scope.evento = EventiServizio.getEvento(idEvento);
-
+    $scope.acquistaPrevendita = function(){
+      console.log("Vado all'acuqisto della prevendita: ", $scope.evento.link);
+    };
     console.log("Ritorna l'evento", $scope.evento);
 });
