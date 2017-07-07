@@ -12,11 +12,12 @@ angular.module('locomotivejazz.service', [])
           titolo: "LA MUSICA NASCE DALLE PERIFERIE",
           data: "14 LUGLIO",
           luogo: "MONTERONI DI LECCE",
+          link: "www.bookingshow.it/Paolo-Fresu-Around-Tuk--Biglietti/99795",
           luogoMaps: {
               lat: 343,
               log: 3434,
               titolo: ">>Palazzo Baronale",
-              link: ""
+
           },
           programma: [
               {

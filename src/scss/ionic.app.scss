@@ -22,7 +22,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 $dodgerblue: #1e90ff !default;
 $deepskyblue: #00bfff !default;
-$darkgrey: #666666 !default;
+$darkgrey: #222328 !default;
 $locomotivejazzcolor: #e9e4dd !default;
 $lightgrey: #dddddd !default;
 $bgsgrey: #968e84 !default;
@@ -38,6 +38,9 @@ $secondarycolor: #968e84 !default;
 
 $disabledcolor: #d5ccc0 !default;
 $errorcolor: #ff1800 !default;
+
+$fontcolor: #5f5f63 !default;
+
 
 @import "style";
 @import "det_evento";
