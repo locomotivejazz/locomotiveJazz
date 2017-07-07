@@ -15,7 +15,8 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: ">>Palazzo Baronale"
+              titolo: ">>Palazzo Baronale",
+              link: ""
           },
           programma: [
               {
@@ -50,7 +51,8 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: ">>Piazza Sant'Oronzo - Mosaico della Lupa"
+              titolo: ">>Piazza Sant'Oronzo - Mosaico della Lupa",
+              link: "www.bookingshow.it/Paolo-Fresu-Around-Tuk--Biglietti/99795"
           },
           programma: [
               {
@@ -100,7 +102,8 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: ""
+              titolo: "",
+
           },
           programma: [
               {
@@ -160,7 +163,6 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-
           },
           programma: [
               {
