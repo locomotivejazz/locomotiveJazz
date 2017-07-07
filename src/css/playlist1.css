@@ -278,6 +278,7 @@ ul li:before{
   color: #ec0000;
   content: '\f10c';
   vertical-align: top;
+  margin-right: 5px;
 }
 /*.linea{
   background-color: #ec0000;
