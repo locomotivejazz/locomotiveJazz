@@ -10,7 +10,10 @@
 
             <h3> {{evento.luogo}}</h3>
             <h4 class="titolo" ng-if="evento.titolo">{{evento.titolo}}</h4>
-            <h4 class="edificio">{{evento.luogoMaps.titolo}}</h4>
+
+            <locojazz-link-luogo  class="edificio" ng-if="evento.luogoMaps" luogo="evento.luogoMaps"></locojazz-link-luogo>        
+    
+            <h4>{{ card.ore }}</h4>
 
             <div ng-repeat="card in evento.programma">
                 <h4 class="edificio" ng-if="card.luogo">{{card.luogo}}</h4>
