@@ -23,7 +23,8 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 $dodgerblue: #1e90ff !default;
 $deepskyblue: #00bfff !default;
 $darkgrey: #666666 !default;
-$locomotivejazzcolor: #e9e4dd !default;
+$locomotivejazzcolor: #0a9dc7 !default;
+//$locomotivejazzcolor: #e9e4dd !default;
 $lightgrey: #dddddd !default;
 $bgsgrey: #968e84 !default;
 $white: #ffffff !default;
@@ -41,6 +42,7 @@ $errorcolor: #ff1800 !default;
 
 @import "style";
 @import "evento";
+@import "home";
 
 $fa-font-path:        "../lib/font-awesome/fonts" !default;
 

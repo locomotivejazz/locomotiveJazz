@@ -1,0 +1,22 @@
+h1.homeTitle {
+  letter-spacing: -2px;
+}
+
+ion-header-bar.bar-stable.locomotiveBar.bar.bar-header {
+  background: url('../img/headerBar.png');
+  background-size: contain;
+}
+
+.locomotiveMenu {
+  background-image: url(../img/general/background-m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.locomotiveMenu .bar.bar-header.bar-stable {
+  background-color: lighten($locomotivejazzcolor, 10%);
+}
+
+ion-item.item.item-complex {
+  margin-top: 3vmin;
+}
