@@ -42,5 +42,10 @@ $errorcolor: #ff1800 !default;
 @import "style";
 @import "det_evento";
 
+$fa-font-path:        "../lib/font-awesome/fonts" !default;
+
+// Include font-awesome
+@import "src/lib/font-awesome/scss/font-awesome";
+
 // Include all of Ionic
 @import "src/lib/ionic/scss/ionic";

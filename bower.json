@@ -4,7 +4,8 @@
   "dependencies": {
     "angular-filter": "^0.5.16",
     "ionic": "driftyco/ionic-bower#1.2.4",
-    "angular-mocks": "^1.6.4"
+    "angular-mocks": "^1.6.4",
+    "font-awesome": "fontawesome#^4.7.0"
   },
   "overrides": {
     "ionic": {

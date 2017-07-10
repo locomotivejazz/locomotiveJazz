@@ -27,7 +27,8 @@ paths.sass = paths.sources + '/scss/ionic.app.scss';
 paths.static = [
     paths.sources + '/img/**/*.*',
     paths.sources + '/fonts/**/*.*',
-    paths.sources + '/lib/ionic/fonts/*.*'
+    paths.sources + '/lib/ionic/fonts/*.*',
+    paths.sources + '/lib/font-awesome/fonts/*.*'
 ];
 
 paths.nameapp = 'locomotivejazz';

@@ -1,25 +1,26 @@
 <ion-view view-title="Info">
     <ion-content>
-      <div class="header">
-        <img class="header1" src="img\header_singolo_evento.PNG"> </img>
-      </div>
-<div class="generale_specifica">
+        <div class="header">
+            <img class="header1" src="img\header_singolo_evento.PNG"> </img>
+        </div>
+        <div class="generale_specifica">
 
-    <h2 class="data">{{evento.data}}</h2>
-    <div ng-bind-html="evento.descrizione"></div>
+            <h2 class="data">{{evento.data}}</h2>
+            <div ng-bind-html="evento.descrizione"></div>
 
-      <h3> {{evento.luogo}}</h3>
-      <h4 class="titolo" ng-if="evento.titolo">{{evento.titolo}}</h4>
-<h4 class="edificio">{{evento.luogoMaps.titolo}}</h4>
-    <div ng-repeat="card in evento.programma">
-     <h4 class="edificio" ng-if="card.luogo">{{card.luogo}}</h4>
-        <h4>{{ card.ore }}</h4>
+            <h3> {{evento.luogo}}</h3>
+            <h4 class="titolo" ng-if="evento.titolo">{{evento.titolo}}</h4>
+            <h4 class="edificio">{{evento.luogoMaps.titolo}}</h4>
 
-          <div ng-bind-html="card.descrizione"></div>
-          <hr class="linea"></hr>
-    </div>
+            <div ng-repeat="card in evento.programma">
+                <h4 class="edificio" ng-if="card.luogo">{{card.luogo}}</h4>
+                <h4>{{ card.ore }}</h4>
+
+                <div ng-bind-html="card.descrizione"></div>
+                <hr class="linea" />
+            </div>
 
 
-</div>
+        </div>
     </ion-content>
 </ion-view>
