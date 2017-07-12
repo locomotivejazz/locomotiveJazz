@@ -1,15 +1,12 @@
-<ion-view view-title="{{ evento.titolo }}">
+<ion-view view-title="{{ evento.luogo }}" />
     <ion-content>
         <div class="generale_specifica">
 
             <h2 class="data">{{evento.data}}</h2>
-            <div ng-bind-html="evento.descrizione"></div>
-
-            <h3> {{evento.luogo}}</h3>
             <h4 class="titolo" ng-if="evento.titolo">{{evento.titolo}}</h4>
+            <div ng-bind-html="evento.descrizione"></div>
+            <locojazz-link-luogo  class="edificio" ng-if="evento.luogo" luogo="evento.luogo"></locojazz-link-luogo>
 
-            <locojazz-link-luogo  class="edificio" ng-if="evento.luogoMaps" luogo="evento.luogoMaps"></locojazz-link-luogo>        
-    
             <h4>{{ card.ore }}</h4>
 
             <div ng-repeat="card in evento.programma">

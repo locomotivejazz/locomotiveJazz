@@ -1,3 +1,10 @@
+h1.menuTitle {
+  text-transform: inherit;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
 h1.homeTitle {
   letter-spacing: -2px;
 }
@@ -14,7 +21,13 @@ ion-header-bar.bar-stable.locomotiveBar.bar.bar-header {
 }
 
 .locomotiveMenu .bar.bar-header.bar-stable {
+/*
   background-color: lighten($locomotivejazzcolor, 10%);
+  */
+  background-image: url(../img/general/menu-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 73px;
 }
 
 ion-item.item.item-complex {

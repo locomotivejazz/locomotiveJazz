@@ -12,11 +12,6 @@ angular.module('locomotivejazz.service', [])
           titolo: "LA MUSICA NASCE DALLE PERIFERIE",
           data: "14 LUGLIO",
           luogo: "MONTERONI DI LECCE",
-          luogoMaps: {
-              lat: 343,
-              log: 3434,
-              titolo: ">>Palazzo Baronale"
-          },
           programma: [
               {
                   ore: "ore 11:00",
@@ -50,7 +45,7 @@ angular.module('locomotivejazz.service', [])
           luogoMaps: {
               lat: 343,
               log: 3434,
-              titolo: ">>Piazza Sant'Oronzo - Mosaico della Lupa"
+              titolo: "Piazza Sant'Oronzo - Mosaico della Lupa"
           },
           programma: [
               {
@@ -97,11 +92,6 @@ angular.module('locomotivejazz.service', [])
                   "VINTAGE EDITION 2017",
           data: "23 LUGLIO",
           luogo: "da BARI a MATERA",
-          luogoMaps: {
-              lat: 343,
-              log: 3434,
-              titolo: ""
-          },
           programma: [
               {
                   ore: "ore 17:00",
@@ -157,11 +147,6 @@ angular.module('locomotivejazz.service', [])
           titolo: "PUNTI DI SVOLTA",
           data: "24 LUGLIO",
           luogo: "LECCE",
-          luogoMaps: {
-              lat: 343,
-              log: 3434,
-
-          },
           programma: [
               {
 
@@ -209,7 +194,7 @@ angular.module('locomotivejazz.service', [])
                                "<p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
               }
           ]
-      },
+      }
     ];
 
     servizio.getEventi = function(){
