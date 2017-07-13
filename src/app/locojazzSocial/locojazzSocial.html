@@ -1,12 +1,21 @@
 <div>
-    <p>
+    <p class="text-center">
         Seguici sui social
     </p>
-    <p>
-        <a href="https://www.facebook.com/LocomotiveJazzFestival/" class="subdued">Facebook</a>
-        <a href="https://twitter.com/LJF_Locomotive" class="subdued">Twitter</a>
-        <a href="https://instagram.com/locomotive_jazz_festival/" class="subdued">Instantgram</a>
-        <a href="https://www.youtube.com/channel/UCaSjo3k5HfVsTy_grHXcMgA" class="subdued">YouTube</a>
+    <p class="text-center">
+
+        <a ng-click="$ctrl.social.vaiFacebook()">
+            <i class="fa fa-facebook-square" style="font-size:36px"></i>
+        </a>
+        <a ng-click="$ctrl.social.vaiTwitter()" >
+            <i class="fa fa-twitter-square" style="font-size:36px"></i>
+        </a>
+        <a ng-click="$ctrl.social.vaiInstantgram()">
+            <i class="fa fa-instagram" style="font-size:36px"></i>
+        </a>
+        <a  ng-click="$ctrl.social.vaiYouTube()">
+            <i class="fa fa-youtube-play" style="font-size:36px"></i>
+        </a>
     </p>
 
 

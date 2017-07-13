@@ -1,34 +1,47 @@
 <ion-view view-title="Contatti">
   <ion-content>
     <div >
-        <div  style="margin-bottom: 40px;"></div>
-        <div  style="margin-bottom: 40px;font-size: 18px;text-align: center">
+        <div  class="marginTop30 align-center">
+            <p>
+                <strong >LOCOMOTIVE JAZZ FESTIVAL</strong><br>
+                info e prenotazioni: <a href="tel:3451089622" >tel. 345 1089622</a><br>
+                e-mail: <a href="mailto:info@locomotivejazzfestival.it">info@locomotivejazzfestival.it</a><br><br>
 
-    <strong >LOCOMOTIVE JAZZ FESTIVAL</strong><br>
-    info e prenotazioni: tel. 345 1089622<br>
-    e-mail: info@locomotivejazzfestival.it<br><br>
+                Associazione Culturale Musicale Locomotive<br>
+                P.I. 04019400755<br>
+                Via Trieste 87, Sogliano Cavour (Le)<br>
 
-    Associazione Culturale Musicale Locomotive<br>
-    P.I. 04019400755<br>
-    Via Trieste 87, Sogliano Cavour (Le)<br>
+            </p>
+            <a ng-click="actions.vaiAlSito()" class="align-center">www.locomotivejazzfestival.it</a>
+        </div >
+        <div class="row marginTop30">
+            <div class="col align-center">
+                <strong >SEGUICI SU</strong>
+                <p>
 
-    </div >
-    <div  style="margin-bottom: 40px;font-size: 18px;text-align: center;">
-    <strong >SEGUICI SU</strong>
+                    <a ng-click="actions.vaiFacebook()">
+                        <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                    </a>
+                    <a ng-click="actions.vaiTwitter()" >
+                        <i class="fa fa-twitter-square" style="font-size:36px"></i>
+                    </a>
+                    <a ng-click="actions.vaiInstantgram()">
+                        <i class="fa fa-instagram" style="font-size:36px"></i>
+                    </a>
+                    <a  ng-click="actions.vaiYouTube()">
+                        <i class="fa fa-youtube-play" style="font-size:36px"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
 
-    <div >
-    <a  href="https://www.facebook.com/LocomotiveJazzFestival/" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
-    <a  href="https://twitter.com/LJF_Locomotive" target="_blank"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
-    <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-     <a  href="https://instagram.com/locomotive_jazz_festival/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
-    <a   href="https://www.youtube.com/channel/UCaSjo3k5HfVsTy_grHXcMgA" target="_blank"><i class="fa fa-youtube-play" style="font-size:36px"></i></a>
-      <!-- <a href=""><i class="fa fa-dribbble"></i></a> -->
-     </div>
-
-    </div>
-
-    <div class="col-md-2" style="margin-bottom: 40px;"></div>
-    <img src="img\copertina2017.png" style="max-width: 100%; width: auto; height: auto;"> </img>
+        <div class="row marginTop10">
+            <div class="col-30"></div>
+            <div class="col-30">
+                <img src="img\copertina2017.png" class="img-responsive"> </img>
+            </div>
+            <div class="col-30"></div>
+        </div>
     </div>
   </ion-content>
 </ion-view>

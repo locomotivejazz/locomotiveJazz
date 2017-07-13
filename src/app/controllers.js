@@ -1,7 +1,8 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.controller('AppCtrl', function($scope, socialService, $timeout) {
 
+    $scope.actions = socialService;
 })
 
 .controller('HomeCtrl', function($scope, $state, $filter, EventiServizio ) {

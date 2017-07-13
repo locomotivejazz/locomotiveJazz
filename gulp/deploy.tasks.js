@@ -27,7 +27,7 @@ gulp.task('deploy:prod:android',['build'],function(cb){
 
     var androidBuild = "ionic build android --release";
     var apkJarsign = "jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 " +
-        "-keystore LinksBGStore.keystore -storepass Links2016 \"" + fileApk + nameApk + "\" LinksBGStore";
+        "-keystore keystore/links.keystore -storepass 12345678 \"" + fileApk + nameApk + "\" paskey";
     var apkZipalign = "./zipalign -f -v 4 \"" + fileApk + nameApk +  "\" " +
         "\"" + outputFile +"\"";
 
