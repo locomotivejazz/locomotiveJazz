@@ -3,13 +3,17 @@
 
       <div class="list card evento" ng-repeat="evento in eventi">
         <div class="item item-avatar" ng-click="vaiDettaglioEvento(evento)">
+            <!--
+            <span class="fa fa-info " ></span>
+            -->
             <h2>{{ evento.data | date: 'dd/MM/yyyy'}}</h2>
-            <h3>{{ evento.titolo}}</h3>
+            <h3 ng-if="evento.titolo">{{ evento.titolo}}</h3>
+            <h3 ng-if="!evento.titolo">{{evento.luogo}} </h3>
         </div>
-        <div class="item item-image">
+        <div class="item item-image" ng-click="vaiDettaglioEvento(evento)" >
             <img ng-src="{{evento.image}}" >
         </div>
-        <a class="item item-icon-left assertive" href="#">
+        <a class="item item-icon-left assertive" ng-if="evento.booking" ng-click="servizi.vaiAlBooking(evento)">
           <i class="icon fa fa-shopping-cart"></i> Acquista Prevendita
         </a>
       </div>

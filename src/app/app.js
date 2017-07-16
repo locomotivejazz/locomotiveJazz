@@ -50,6 +50,16 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
           }
         }
       })
+      .state('app.prossimieventi', {
+          url: '/prossimieventi',
+          views: {
+              'menuContent': {
+                  templateUrl: 'templates/prossimieventi.html',
+                  controller: 'HomeCtrl'
+              }
+          }
+      })
+
       .state('app.home', {
         url: '/home',
         views: {

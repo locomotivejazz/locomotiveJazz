@@ -8,6 +8,12 @@ angular.module('locomotivejazz').service('socialService',function(){
         window.open("http://www.locomotivejazzfestival.it/", '_system', 'location=yes');
     };
 
+    service.vaiAlBooking = function(evento){
+        if(evento.booking){
+            window.open(evento.booking, '_system', 'location=yes');
+        }
+    };
+
     service.vaiFacebook = function(){
         window.open('https://www.facebook.com/LocomotiveJazzFestival/', '_system', 'location=no');
     };

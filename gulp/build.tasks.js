@@ -45,10 +45,20 @@ gulp.task('build:js:hint',function(cb){
         .on('end',cb);
 });
 
-gulp.task('build:js:compact',function(cb){
+gulp.task('build:js:compact',['generate:events'],function(cb){
     gulp.src(paths.javascript)
         .pipe(angularFilesort())
         .pipe(concat('app.js'))
+        .pipe(inject(gulp.src(['./src/mock/eventi.json']), {
+            starttag: '/* inject:eventi */',
+            endtag: '/* endinject:eventi */',
+            transform: function (filePath, file) {
+                // return file contents as string
+                var string = file.contents.toString('utf8')
+                var ret = "var json = " + string + "; eventi = json.eventi;";
+                return ret;
+            }
+        }))
         .pipe(gulp.dest(paths.destjs))
         .on('end',cb);
 });
