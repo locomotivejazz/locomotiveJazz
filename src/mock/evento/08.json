@@ -1,0 +1,18 @@
+{
+    "id": 8,
+    "image":"img/eventi/evento08-dhafer-youssef.jpg",
+    "dataEstesa": "1501322400000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/29-luglio",
+    "booking": "https://www.bookingshow.it/Dhafer-Youssef-4tet-Biglietti/99847",
+    "data": "29 LUGLIO",
+    "luogo": "Lecce",
+    "titolo": "DREHER night",
+    "programma": [
+        {
+            "map": {
+                "title": "Anfiteatro Romano",
+                "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+            }
+        }
+    ]
+}

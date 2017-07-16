@@ -1,0 +1,35 @@
+{
+    "id": 2,
+    "image":"img/eventi/evento02-fresu.jpg",
+    "dataEstesa": "1500717600000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/22-luglio",
+    "booking": "https://www.bookingshow.it/Paolo-Fresu-Around-Tuk--Biglietti/99795",
+    "data": "22 LUGLIO",
+    "luogo": "Lecce",
+    "programma": [
+        {
+            "ore": "ore 19:00/INGRESSO LIBERO",
+            "descrizione": "<p> sonorizzazione restauro <i>de La Lupa</i>  </p><p> con <b>DINO RUBINO</b> piano solo  </p>",
+            "map": {
+                "title": "Piazza Sant'Oronzo",
+                "urlMap": "https://www.google.it/maps/place/Piazza+Sant'Oronzo,+73100+Lecce+LE/@40.3530224,18.17211,19z/data=!3m1!4b1!4m5!3m4!1s0x13442ee150512531:0xa5ac1b6edd59c09e!8m2!3d40.3530214!4d18.1726572"
+            }
+        },
+        {
+            "map":{
+                "title": "Basilica di Santa Croce",
+                "urlMap":"https://www.google.it/maps/place/Basilica+di+Santa+Croce/@40.3545459,18.1733069,19.5z/data=!4m5!3m4!1s0x13442ee41f66e327:0x454ba36641638b6b!8m2!3d40.3546933!4d18.1731285"
+            },
+            "ore": "ore 19:30/INGRESSO LIBERO",
+            "descrizione": "<p> sonorizzazione restauro Basilica di Santa Croce </p><p> con <b>PAOLO FRESU</b> solo  </p>"
+        },
+        {
+            "map": {
+                "title":"Rettorato Università del Salento",
+                "urlMap":"https://www.google.it/maps/place/Universit%C3%A0+del+Salento+-+Rettorato/@40.3494701,18.1670567,18.25z/data=!4m5!3m4!1s0x13442ee79da8cdd7:0x5bbe4afbe058aa6f!8m2!3d40.3495599!4d18.1672669"
+            },
+            "ore": "ore 22:00",
+            "descrizione": "<h4 class='red-text'><b>PAOLO FRESU</b></h4><h4 class='red-text'><b>'AROUND TUK'</b></h4><h5><b>PAOLO FRESU</b></h5><p>tromba-flicorno-elettronica</p><h5><b>RAFFAELE CASARANO</b></h5><p>sax contralto,soprano,elettronica</p><h5><b>DINO RUBINO</b></h5><p>piano e tromba</p><h5><b>MIRKO SIGNORILE</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>ENRICO MORELLO</b></h5><p>batteria</p>"
+        }
+    ]
+}

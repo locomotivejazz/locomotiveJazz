@@ -1,0 +1,21 @@
+{
+    "id": 5,
+    "image":"img/eventi/evento05-trio-tosca.jpg",
+    "dataEstesa": "1501063200000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/26-luglio",
+    "data": "26 LUGLIO",
+    "luogo": "Giurdignano (LE)",
+    "programma": [
+        {
+            "map":{
+                "urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.1227514,18.4300443,17z/data=!3m1!4b1!4m5!3m4!1s0x134440095d1d3d73:0xa4733f2cf8ded64!8m2!3d40.1227473!4d18.432233",
+                "title": "Palazzo Baronale"
+            }
+        },
+        {
+            "map":{
+                "title": "Giardino Megalitico d'Europa"
+            }
+        }
+    ]
+}

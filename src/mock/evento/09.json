@@ -1,0 +1,18 @@
+{
+    "id": 9,
+    "image":"img/eventi/evento09-finardi-rocca-casarano.jpg",
+    "dataEstesa": "1501408800000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/30-luglio",
+    "booking": "https://www.bookingshow.it/Raffaele-Casarano-Jazz-4tet-con-Stefania-Rocca-ed-Eugenio-Finardi-Biglietti/99863",
+    "data": "30 LUGLIO",
+    "luogo": "Lecce",
+    "titolo": "TRIACORDA night",
+    "programma": [
+        {
+            "map": {
+                "title": "Anfiteatro Romano",
+                "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+            }
+        }
+    ]
+}

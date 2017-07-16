@@ -1,0 +1,24 @@
+{
+    "id": 6,
+    "image":"img/eventi/evento06-zampaglione.jpg",
+    "dataEstesa": "1500717600000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/27-luglio",
+    "data": "27 LUGLIO",
+    "luogo": "Acaya e Parco Naturale delle Cesine (Vernole – LE)",
+    "titolo": "#NOTTELOCOMOTIVE",
+    "programma": [
+        {
+            "map": {
+                "title": "Castello di Acaya",
+                "urlMap": "https://www.google.it/maps/place/Castello+di+Acaya/@40.333514,18.2940656,17z/data=!3m1!4b1!4m5!3m4!1s0x13443104a75791b5:0xf8d5b7fe0f9722e!8m2!3d40.333514!4d18.2962543"
+            }
+        },
+        {
+            "map": {
+                "title": "Strada Bianca",
+                "urlMap": "https://www.google.it/maps/place/40%C2%B020'18.4%22N+18%C2%B021'53.4%22E/@40.33845,18.3642768,248m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.338449!4d18.364824"
+            }
+        }
+
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": 12,
+    "image":"img/eventi/evento12-after-concert.jpg",
+    "dataEstesa": "1501322400000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/index.php/jazz-festival/programma-2017/after-concert",
+    "data": "29-31 LUGLIO / 1 Agosto",
+    "luogo": "Lecce",
+    "titolo": "After Concert",
+    "programma": [
+        {
+            "map": {
+                "title": "Museo Ferroviario",
+                "urlMap": "https://www.google.it/maps/place/Museo+Ferroviario+della+Puglia/@40.3439798,18.1648601,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x13442f2206fcd155:0x3a56e92586e4494f!8m2!3d40.3439757!4d18.1670488"
+            }
+        }
+    ]
+}

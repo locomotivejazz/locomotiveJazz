@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "image":"img/eventi/evento01-danilo-rea.jpg",
+    "dataEstesa": "1499767200000",
+    "urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/14-luglio",
+    "data": "14 LUGLIO",
+    "luogo": "Monteroni di Lecce (LE)",
+    "map": {
+        "urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.3273506,18.0949189,18.75z/data=!4m5!3m4!1s0x134428875e5803c5:0x956c49d25062f8b7!8m2!3d40.3274931!4d18.0956676",
+        "title": "Palazzo Baronale"
+    },
+    "programma": [
+        {
+            "ore": "ore 11:00",
+            "descrizione": "conferenza La Musica nasce dalle Periferie  <p> in collaborazione con Università del Salento </p>"
+        },
+        {
+            "ore": "ore 20:30",
+            "descrizione": "<p>Consegna premio</p><p><b>Ricerca e innovazione 2017-Città di Monteroni</b> </p><p>Riconoscimento alle eccellenze dell'Università del Salento</p>"
+        },
+        {
+            "ore": "ore 21:30/INGRESSO LIBERO",
+            "descrizione": "<h4><b>DANILO REA</b></h4>Piano solo"
+        },
+        {
+            "ore": "dalle ore 23:00 in poi",
+            "descrizione": "<b>AFTER CONCERT</b><p>presso CANTINA APPOLONIO</p><p>Jam session live</p>",
+            "map": {
+                "urlMap": "https://www.google.it/maps/place/Apollonio+Casa+Vinicola/@40.3237666,18.1043361,17z/data=!3m1!4b1!4m5!3m4!1s0x13442f254eba0719:0x5024018efca966b3!8m2!3d40.3237666!4d18.1065248?hl=it",
+                "title": "Cantine Apollonio"
+            }
+        }
+    ]
+}

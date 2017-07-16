@@ -1,0 +1,311 @@
+{
+	"eventi": [
+		{
+			"id": 1,
+			"image": "img/eventi/evento01-danilo-rea.jpg",
+			"dataEstesa": "1499767200000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/14-luglio",
+			"data": "14 LUGLIO",
+			"luogo": "Monteroni di Lecce (LE)",
+			"map": {
+				"urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.3273506,18.0949189,18.75z/data=!4m5!3m4!1s0x134428875e5803c5:0x956c49d25062f8b7!8m2!3d40.3274931!4d18.0956676",
+				"title": "Palazzo Baronale"
+			},
+			"programma": [
+				{
+					"ore": "ore 11:00",
+					"descrizione": "conferenza La Musica nasce dalle Periferie  <p> in collaborazione con Università del Salento </p>"
+				},
+				{
+					"ore": "ore 20:30",
+					"descrizione": "<p>Consegna premio</p><p><b>Ricerca e innovazione 2017-Città di Monteroni</b> </p><p>Riconoscimento alle eccellenze dell'Università del Salento</p>"
+				},
+				{
+					"ore": "ore 21:30/INGRESSO LIBERO",
+					"descrizione": "<h4><b>DANILO REA</b></h4>Piano solo"
+				},
+				{
+					"ore": "dalle ore 23:00 in poi",
+					"descrizione": "<b>AFTER CONCERT</b><p>presso CANTINA APPOLONIO</p><p>Jam session live</p>",
+					"map": {
+						"urlMap": "https://www.google.it/maps/place/Apollonio+Casa+Vinicola/@40.3237666,18.1043361,17z/data=!3m1!4b1!4m5!3m4!1s0x13442f254eba0719:0x5024018efca966b3!8m2!3d40.3237666!4d18.1065248?hl=it",
+						"title": "Cantine Apollonio"
+					}
+				}
+			]
+		},
+		{
+			"id": 2,
+			"image": "img/eventi/evento02-fresu.jpg",
+			"dataEstesa": "1500717600000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/22-luglio",
+			"booking": "https://www.bookingshow.it/Paolo-Fresu-Around-Tuk--Biglietti/99795",
+			"data": "22 LUGLIO",
+			"luogo": "Lecce",
+			"programma": [
+				{
+					"ore": "ore 19:00/INGRESSO LIBERO",
+					"descrizione": "<p> sonorizzazione restauro <i>de La Lupa</i>  </p><p> con <b>DINO RUBINO</b> piano solo  </p>",
+					"map": "Piazza Sant'Oronzo",
+					"urlMap": "https://www.google.it/maps/place/Piazza+Sant'Oronzo,+73100+Lecce+LE/@40.3530224,18.17211,19z/data=!3m1!4b1!4m5!3m4!1s0x13442ee150512531:0xa5ac1b6edd59c09e!8m2!3d40.3530214!4d18.1726572"
+				},
+				{
+					"map": {
+						"title": "Basilica di Santa Croce",
+						"urlMap": "https://www.google.it/maps/place/Basilica+di+Santa+Croce/@40.3545459,18.1733069,19.5z/data=!4m5!3m4!1s0x13442ee41f66e327:0x454ba36641638b6b!8m2!3d40.3546933!4d18.1731285"
+					},
+					"ore": "ore 19:30/INGRESSO LIBERO",
+					"descrizione": "<p> sonorizzazione restauro Basilica di Santa Croce </p><p> con <b>PAOLO FRESU</b> solo  </p>"
+				},
+				{
+					"map": {
+						"title": "Rettorato Università del Salento",
+						"urlMap": "https://www.google.it/maps/place/Universit%C3%A0+del+Salento+-+Rettorato/@40.3494701,18.1670567,18.25z/data=!4m5!3m4!1s0x13442ee79da8cdd7:0x5bbe4afbe058aa6f!8m2!3d40.3495599!4d18.1672669"
+					},
+					"ore": "ore 22:00",
+					"descrizione": "<h4 class='red-text'><b>PAOLO FRESU</b></h4><h4 class='red-text'><b>'AROUND TUK'</b></h4><h5><b>PAOLO FRESU</b></h5><p>tromba-flicorno-elettronica</p><h5><b>RAFFAELE CASARANO</b></h5><p>sax contralto,soprano,elettronica</p><h5><b>DINO RUBINO</b></h5><p>piano e tromba</p><h5><b>MIRKO SIGNORILE</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>ENRICO MORELLO</b></h5><p>batteria</p>"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"image": "img/eventi/evento03-treno.jpg",
+			"dataEstesa": "1500804000000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/23-luglio",
+			"titolo": "#TRAMONTOLOCOMOTIVE",
+			"data": "23 LUGLIO",
+			"luogo": "da BARI a MATERA",
+			"programma": [
+				{
+					"ore": "ore 17:00",
+					"descrizione": "<p> inaugurazione e viaggio di una Locomotiva a vapore del 1932 da Bari a Matera  </p><p> From Station to Station da Bari a Matera  </p><p> “Binario Sonoro Puglia - Basilicata” </p><p> partenza dalla stazione di Bari Centrale</p><p> <b>MIRKO SIGNORILE</b> piano solo </p>"
+				},
+				{
+					"titolo": "<p> TRILOGIA </p><p>TRAMONTO LOCOMOTIVE 2017</p>",
+					"ore": "ore 17:30/Partenza TRENO",
+					"descrizione": "<p> prima sosta Grumo Appula </p><p> seconda sosta (degustazione) Altamura  </p>"
+				},
+				{
+					"ore": "ore 21:30/Arrivo a Matera Villa Longo",
+					"descrizione": "<p>POSTI DISPONIBILI n° 121, seconda classe € 20</p><p>In vendita su <b> www.rotaiedipuglia.it</b></p><p>info: Luigi Mighali 3471225188</p>"
+				},
+				{
+					"ore": "ore 21:30/Arrivo a Matera, Stazione Villa Longo",
+					"descrizione": "<p> passeggiata sonora tra i Sassi  </p><p> con <b> ‘LOCOMOTIVE ORCHESTRA’</b>  </p><p> e la partecipazione speciale </p><p>dell’attrice <b>STEFANIA ROCCA</b></p>"
+				},
+				{
+					"map": {
+						"title": "Casa Cava/INGRESSO LIBERO",
+						"mapUrl": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
+					},
+					"descrizione": "<p> LIVE JAM SESSION  </p><p> <i>Un evento Ferrovie Appulo Lucane e con la collaborazione</i> </p><p> <i>di Gezziamoci Festival Ass. Onyx jazz e Ass. Biagio Mattatelli</i> </p>"
+				},
+				{
+					"descrizione": "<p class='green-text'> Ritorno a Bari con gli autobus  </p><p class='green-text'> delle Ferrovie Appulo Lucane </p>"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"image": "img/eventi/evento04-SEMINARIO-FOTOGRAFIA.jpg",
+			"dataEstesa": "1500890400000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/24-luglio",
+			"titolo": "Punti di svolta",
+			"data": "24 LUGLIO",
+			"luogo": "LECCE",
+			"programma": [
+				{
+					"descrizione": "<p> SEMINARIO DI FOTOGRAFIA</p><p >a cura di <b>ANDREA BOCCALINI</b> </p><p >e <b>FLAVIO & FRANK</b> </p><p>Il ritratto fotografico attraverso un percorso </p><p>parte dalla musica pop e passando dal rock, </p><p>al jazz arriva al reportage e alla moda. Un </p><p>viaggio in cui Flavio e Frank insieme ad Andrea</p><p>Boccalini, partendo dalle loro esperienze </p><p>umane e professionali vi condurranno alla </p><p>scoperta della ritrattistica in chiave narrativa e </p><p>concettuale. <b> I partecipanti saranno coinvolti in </b></p><p><b>un progetto di ritrattistica legato al Lcomotive </b></p><p><b>Jazz Festival.</b></p>"
+				},
+				{
+					"map": {
+						"title": "Sala Conferenze LINLKS-MT",
+						"mapUrl": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
+					},
+					"descrizione": "(Via Rocco Scotellaro, 55)"
+				},
+				{
+					"descrizione": "Rinfresco"
+				},
+				{
+					"descrizione": "<p>Ai partecipanti verrà fornito un </p><p class='red-text'>Pass 'ALL AREAS LOCOMOTIVE' </p><p>che garantisce l’accesso a tutti</p><p>gli eventi in programma</p>"
+				},
+				{
+					"descrizione": "<p class='background-color:black; color:white' >INFO E ISCRIZIONI</p><p>e-mail: info@locomotivejazzfestival.it<p>tel: +39 345 1089622</p>"
+				},
+				{
+					"descrizione": "<p class='red-text'></p><p>Bonifico bancario</p><p><b>BANCA:</b> Banca Sella, filiale di Maglie</p><p><b>IBAN:</b> IT 64 T 03268 79720 05275 2631960</p><p><b>CAUSALE:</b> 'Nome e Cognome, iscrizione</p><p>seminario di fotografia Locomotive' </p><p>inviare un'email con copia del bonifico all'indirizzo</p><p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"image": "img/eventi/evento05-trio-tosca.jpg",
+			"dataEstesa": "1501063200000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/26-luglio",
+			"data": "26 LUGLIO",
+			"luogo": "Giurdignano (LE)",
+			"programma": [
+				{
+					"map": {
+						"urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.1227514,18.4300443,17z/data=!3m1!4b1!4m5!3m4!1s0x134440095d1d3d73:0xa4733f2cf8ded64!8m2!3d40.1227473!4d18.432233",
+						"title": "Palazzo Baronale"
+					}
+				},
+				{
+					"map": {
+						"title": "Giardino Megalitico d'Europa"
+					}
+				}
+			]
+		},
+		{
+			"id": 6,
+			"image": "img/eventi/evento06-zampaglione.jpg",
+			"dataEstesa": "1500717600000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/27-luglio",
+			"data": "27 LUGLIO",
+			"luogo": "Acaya e Parco Naturale delle Cesine (Vernole – LE)",
+			"titolo": "#NOTTELOCOMOTIVE",
+			"programma": [
+				{
+					"map": {
+						"title": "Castello di Acaya",
+						"urlMap": "https://www.google.it/maps/place/Castello+di+Acaya/@40.333514,18.2940656,17z/data=!3m1!4b1!4m5!3m4!1s0x13443104a75791b5:0xf8d5b7fe0f9722e!8m2!3d40.333514!4d18.2962543"
+					}
+				},
+				{
+					"map": {
+						"title": "Strada Bianca",
+						"urlMap": "https://www.google.it/maps/place/40%C2%B020'18.4%22N+18%C2%B021'53.4%22E/@40.33845,18.3642768,248m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.338449!4d18.364824"
+					}
+				}
+			]
+		},
+		{
+			"id": 7,
+			"image": "img/eventi/evento07-noa.jpg",
+			"dataEstesa": "1501236000000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/28-luglio",
+			"booking": "https://www.bookingshow.it/Dhafer-Youssef-4tet-Biglietti/99847",
+			"data": "28 LUGLIO",
+			"luogo": "Marina Serra (Tricase – LE)",
+			"titolo": "#ALBALOCOMOTIVE",
+			"programma": [
+				{
+					"map": {
+						"title": "Masseria Abbracciavento",
+						"urlMap": "https://www.google.it/maps/place/Masseria+Abbracciavento/@39.9358835,18.371596,998m/data=!3m2!1e3!4b1!4m5!3m4!1s0x13440da3dc2538af:0x514b368469b77067!8m2!3d39.9358794!4d18.3737847"
+					}
+				},
+				{
+					"map": {
+						"title": "Marina Serra",
+						"urlMap": "https://www.google.it/maps/place/39%C2%B054'44.7%22N+18%C2%B023'37.2%22E/@39.9124155,18.3928834,355m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d39.912414!4d18.393661"
+					}
+				}
+			]
+		},
+		{
+			"id": 8,
+			"image": "img/eventi/evento08-dhafer-youssef.jpg",
+			"dataEstesa": "1501322400000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/29-luglio",
+			"booking": "https://www.bookingshow.it/Dhafer-Youssef-4tet-Biglietti/99847",
+			"data": "29 LUGLIO",
+			"luogo": "Lecce",
+			"titolo": "DREHER night",
+			"programma": [
+				{
+					"map": {
+						"title": "Anfiteatro Romano",
+						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+					}
+				}
+			]
+		},
+		{
+			"id": 9,
+			"image": "img/eventi/evento09-finardi-rocca-casarano.jpg",
+			"dataEstesa": "1501408800000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/jazz-festival/programma-2017/30-luglio",
+			"booking": "https://www.bookingshow.it/Raffaele-Casarano-Jazz-4tet-con-Stefania-Rocca-ed-Eugenio-Finardi-Biglietti/99863",
+			"data": "30 LUGLIO",
+			"luogo": "Lecce",
+			"titolo": "TRIACORDA night",
+			"programma": [
+				{
+					"map": {
+						"title": "Anfiteatro Romano",
+						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+					}
+				}
+			]
+		},
+		{
+			"id": 10,
+			"image": "img/eventi/evento10-dibonaventura.jpg",
+			"dataEstesa": "1501495200000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/index.php/jazz-festival/programma-2017/31-luglio",
+			"booking": "https://www.bookingshow.it/Daniele-di-Bonaventura-Tango-Suite--Biglietti/98201",
+			"data": "31 LUGLIO",
+			"titolo": "LINKS night",
+			"luogo": "Lecce",
+			"programma": [
+				{
+					"map": {
+						"title": "Santa Maria di Pozzuolo, Quartiere San Pio",
+						"urlMap": "https://www.google.it/maps/place/40%C2%B021'25.1%22N+18%C2%B009'35.7%22E/@40.3569881,18.1577163,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.356984!4d18.159905"
+					}
+				},
+				{
+					"map": {
+						"title": "Anfiteatro Romano",
+						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+					}
+				}
+			]
+		},
+		{
+			"id": 11,
+			"image": "img/eventi/evento11-richardbona.jpg",
+			"dataEstesa": "1501581600000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/index.php/jazz-festival/programma-2017/1-agosto",
+			"booking": "https://www.bookingshow.it/Richard-Bona-Mandekan-cubano-Biglietti/98200",
+			"data": "1 Agosto",
+			"luogo": "Lecce",
+			"titolo": "BPP night",
+			"programma": [
+				{
+					"map": {
+						"title": "Santa Maria di Pozzuolo, Quartiere San Pio",
+						"urlMap": "https://www.google.it/maps/place/40%C2%B021'25.1%22N+18%C2%B009'35.7%22E/@40.3569881,18.1577163,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.356984!4d18.159905"
+					}
+				},
+				{
+					"map": {
+						"title": "Anfiteatro Romano",
+						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+					}
+				}
+			]
+		},
+		{
+			"id": 12,
+			"image": "img/eventi/evento12-after-concert.jpg",
+			"dataEstesa": "1501322400000",
+			"urlScheda": "http://www.locomotivejazzfestival.it/index.php/jazz-festival/programma-2017/after-concert",
+			"data": "29-31 LUGLIO / 1 Agosto",
+			"luogo": "Lecce",
+			"titolo": "After Concert",
+			"programma": [
+				{
+					"map": {
+						"title": "Museo Ferroviario",
+						"urlMap": "https://www.google.it/maps/place/Museo+Ferroviario+della+Puglia/@40.3439798,18.1648601,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x13442f2206fcd155:0x3a56e92586e4494f!8m2!3d40.3439757!4d18.1670488"
+					}
+				}
+			]
+		}
+	]
+}
