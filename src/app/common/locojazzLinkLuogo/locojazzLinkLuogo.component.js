@@ -8,15 +8,25 @@ angular.module("locomotivejazz.common").component('locojazzLinkLuogo',{
         template: '@'
     },
     controller: function(){
-        var BASE_PATH = "common/locojazzLinkLuogo/";
-        this.templateUrl = BASE_PATH + "locojazzLinkLuogo.html";
+        var BASE_PATH = "common/locojazzLinkLuogo/locojazzLinkLuogo";
+        this.templateUrl = BASE_PATH + ".html";
 
         if(this.template){
             this.templateUrl = BASE_PATH + this.template + ".html";
         }
 
         this.naviga = function(){
-            launchnavigator.navigate(this.luogo);
+            try {
+                var split = this.luogo.urlMap.split('@');
+                split = split[1].split(',');
+                var cord = [split[0],
+                     split[1]
+                ];
+                launchnavigator.navigate(cord);
+            } catch(e){
+                launchnavigator.navigate(this.luogo.title);
+            }
+
         };
 
     }

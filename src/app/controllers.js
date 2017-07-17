@@ -28,12 +28,14 @@ angular.module('starter.controllers', [])
   $scope.prossimiEventi = EventiServizio.getProssimiEventi();
 })
 
-.controller('DettaglioEventoCtrl', function($scope, $stateParams, EventiServizio) {
+.controller('DettaglioEventoCtrl', function($scope, $stateParams, EventiServizio, socialService) {
     var idEvento = $stateParams.eventoId;
 
     console.log("Parametro dell'evento:", idEvento);
 
     $scope.evento = EventiServizio.getEvento(idEvento);
+
+    $scope.servizi = socialService;
 
     console.log("Ritorna l'evento", $scope.evento);
 });
