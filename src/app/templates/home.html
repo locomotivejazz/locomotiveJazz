@@ -2,30 +2,30 @@
 
   <ion-content>
     <div class="card" >
-        <div class="item item-text-wrap">
-          <h1 class="homeTitle">Locomotive Jazz Festival 2017</h1>
-          <h3 class="toUpper"><i>XII Edizione</i> </h3>
-          <img class="full-image" src="img/copertina2017.png" />
-          <locojazz-social></locojazz-social>
-        </div>
+      <div class="item item-text-wrap">
+        <h1 class="homeTitle">Locomotive Jazz Festival</h1>
+        <h2 class="homeSub"><strong>2017 </strong> <span class="text-italic"> XII Edizione</span></h2>          
+        <h2 class="homeSub2">direzione artistica <strong>Raffaele Casarano</strong></h2>
+        <img class="full-image" src="img/copertina2017.png" />
+        <locojazz-social></locojazz-social>
+      </div>
     </div>
     <div class="card" ng-if="prossimiEventi.length>0">
-        <h3 class="align-center"  ui-sref="app.prossimieventi()">
-            <span >
-                Prossimi eventi
-            </span>
-            <span class="pull-right marginRight10" ng-if="prossimiEventi.length>2">
-                ({{prossimiEventi.length}}) <i class="fa fa-angle-right"></i>
-            </span>
-        </h3>
+      <h3 class="evtTitle"  ui-sref="app.prossimieventi()">
+        <span>
+          Prossimi eventi
+        </span>
+        <span class="pull-right marginRight10" ng-if="prossimiEventi.length>2">
+          ({{prossimiEventi.length}}) <i class="fa fa-angle-right"></i>
+        </span>
+      </h3>
 
-        <div
-                ng-repeat="prossimoEvento in prossimiEventi |limitTo:2"
-                class="item item-avatar" ui-sref="app.evento({'eventoId': prossimoEvento.id})">
-            <img ng-src="{{prossimoEvento.image}}" ng-if="prossimoEvento.image"/>
-            <h2 class="toUpper">{{ prossimoEvento.luogo }}</h2>
-            <p class="red-text">{{ prossimoEvento.data }}</p>
-        </div>
+      <div ng-repeat="prossimoEvento in prossimiEventi |limitTo:2"
+           class="item item-avatar" ui-sref="app.evento({'eventoId': prossimoEvento.id})">
+        <img ng-src="{{prossimoEvento.image}}" ng-if="prossimoEvento.image"/>
+        <h2 class="toUpper">{{ prossimoEvento.luogo }}</h2>
+        <p class="red-text">{{ prossimoEvento.data }}</p>
+      </div>
 
     </div>
 

@@ -1,3 +1,7 @@
+.text-italic{
+  font-style: italic;
+}
+
 h1.menuTitle {
   text-transform: inherit;
   font-size: 1.5em;
@@ -5,23 +9,60 @@ h1.menuTitle {
   width: 100%;
 }
 
+h2.homeSub {
+  text-transform: uppercase;
+  font-size: 20px!important;
+}
+
+h2.homeSub2 {
+  margin: 25px 0 35px!important;
+}
+
 h1.homeTitle {
-  letter-spacing: -2px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 44px;
+  line-height: 42px;
 }
 
-ion-header-bar.bar-stable.locomotiveBar.bar.bar-header {
+.followIcons{
+  margin-right: 10px;
+  height: 40px;
+}
+
+.festivalImg{
+  margin: 50px 30px 0 30px;
+}
+
+h3.evtTitle{
+  background-color: black;
+  color: white;
+  padding: 7px 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+ion-header-bar.bar-dark.locomotiveBar.bar.bar-header {
+  background: url('../img/headerBarDark.png');
+  background-size: contain;  
+  background-position-y: 5px;
+}
+
+.titleLine {
   background: url('../img/headerBar.png');
-  background-size: contain;
+  background-size: contain;  
+  background-position-y: 5px;
 }
-
+/*
 .locomotiveMenu {
-  background-image: url(../img/general/background-m.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+background-image: url(../img/general/background-m.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
+*/
 
 .locomotiveMenu .bar.bar-header.bar-stable {
-/*
+  /*
   background-color: lighten($locomotivejazzcolor, 10%);
   */
   background-image: url(../img/general/menu-header.png);
@@ -30,9 +71,11 @@ ion-header-bar.bar-stable.locomotiveBar.bar.bar-header {
   height: 73px;
 }
 
+/*
 ion-item.item.item-complex {
-  margin-top: 3vmin;
+margin-top: 3vmin;
 }
+*/
 
 .item-avatar > span:first-child, .item-avatar .item-image, .item-avatar .item-content > span:first-child, .item-avatar .item-content .item-image, .item-avatar-left > span:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > span:first-child, .item-avatar-left .item-content .item-image {
   position: absolute;
