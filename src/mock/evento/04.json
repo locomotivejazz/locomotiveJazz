@@ -13,7 +13,7 @@
         {
             "map": {
                 "title": "Sala Conferenze LINLKS-MT",
-                "mapUrl": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
+                "urlMap": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
             },
             "ore": "ore 10:30 - 19:00",
             "descrizione": "<p>(Via Rocco Scotellaro, 55)</p><p>costo € 100</p>"

@@ -97,7 +97,7 @@
 				{
 					"map": {
 						"title": "Casa Cava/INGRESSO LIBERO",
-						"mapUrl": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
+						"urlMap": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
 					},
 					"descrizione": "<p> <b>RAFFAELE CASARANO</b> e ospiti, <b>MIRKO SIGNORILE</b> in piano solo</p><p> <i>Un evento Ferrovie Appulo Lucane e con la collaborazione</i> </p><p> <i>di Gezziamoci Festival Ass. Onyx jazz e Ass. Biagio Mattatelli</i> </p>"
 				},
@@ -121,7 +121,7 @@
 				{
 					"map": {
 						"title": "Sala Conferenze LINLKS-MT",
-						"mapUrl": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
+						"urlMap": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
 					},
 					"ore": "ore 10:30 - 19:00",
 					"descrizione": "<p>(Via Rocco Scotellaro, 55)</p><p>costo € 100</p>"
@@ -265,7 +265,7 @@
 				},
 				{
 					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
-					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
+					"descrizione": "<p>AFTER CONCERT 'JAM SESSION LIVE' e degustazioni</p>"
 				}
 			]
 		},
@@ -285,7 +285,7 @@
 			"programma": [
 				{
 					"ore": "ore 21:00",
-					"descrizione": "OPEN STAGE <b>LUCA BANDIRALI</b> <i>'Streen Selecta Part II'</i>"
+					"descrizione": "<p>OPEN STAGE <strong>LUCA BANDIRALI</strong> <i>'Streen Selecta Part II'</i></p>"
 				},
 				{
 					"ore": "ore 21:30 concerto-evento",
@@ -293,7 +293,7 @@
 				},
 				{
 					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
-					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
+					"descrizione": "<p>AFTER CONCERT 'JAM SESSION LIVE' e degustazioni</p>"
 				}
 			]
 		},
@@ -321,7 +321,7 @@
 						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
 					},
 					"ore": "ore 21:00",
-					"descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i>"
+					"descrizione": "<p>OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i></p>"
 				},
 				{
 					"ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
@@ -333,7 +333,7 @@
 				},
 				{
 					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
-					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
+					"descrizione": "<p>AFTER CONCERT 'JAM SESSION LIVE' e degustazioni</p>"
 				}
 			]
 		},
@@ -362,11 +362,11 @@
 				},
 				{
 					"ore": "ore 21:30",
-					"descrizione": "<strong>LOCOMOTIVE GIOVANI 2017</strong> assegnazione borsa di studio"
+					"descrizione": "<p><strong>LOCOMOTIVE GIOVANI 2017</strong> assegnazione borsa di studio</p>"
 				},
 				{
 					"ore": "ore 22.00 concerto-evento",
-					"descrizione": "<strong>RICHARD BONA ‘&amp; MANDEKAN CUBANO</strong><br/><strong>RICHARD BONA</strong> bass &amp; vocals<br><strong>LUDWIG ALFONSO</strong> drums<br><strong>OSMANY PAREDES</strong> piano<br><strong>LUISITO QUINTERO</strong> percussion<br><strong>ROBERTO QUINTERO</strong> percussion<br><strong>REY ALEJANDRE</strong> trombone<br><strong>DENNIS HERNANDEZ</strong> trumpet"
+					"descrizione": "<p><strong>RICHARD BONA ‘&amp; MANDEKAN CUBANO</strong><br/><strong>RICHARD BONA</strong> bass &amp; vocals<br><strong>LUDWIG ALFONSO</strong> drums<br><strong>OSMANY PAREDES</strong> piano<br><strong>LUISITO QUINTERO</strong> percussion<br><strong>ROBERTO QUINTERO</strong> percussion<br><strong>REY ALEJANDRE</strong> trombone<br><strong>DENNIS HERNANDEZ</strong> trumpet</p>"
 				}
 			]
 		},

@@ -44,9 +44,14 @@ h3.evtTitle{
 
 ion-header-bar.bar-dark.locomotiveBar.bar.bar-header {
   background: url('../img/headerBarDark.png');
-  background-size: contain;  
+  background-size: contain;
   background-position-y: 5px;
 }
+
+.platform-ios ion-header-bar.bar-dark.locomotiveBar.bar.bar-header {
+  background-position-y: 9px;
+}
+
 
 .titleLine {
   background: url('../img/headerBar.png');

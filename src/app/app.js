@@ -87,6 +87,15 @@ angular.module('locomotivejazz', ['ionic', 'starter.controllers','locomotivejazz
       }
     }
   })
+      .state('app.staff',{
+          url: '/staff',
+          views: {
+              'menuContent':{
+                  templateUrl: 'templates/staff.html'
+
+              }
+          }
+      })
   .state('app.card', {
     url: '/card',
     views: {

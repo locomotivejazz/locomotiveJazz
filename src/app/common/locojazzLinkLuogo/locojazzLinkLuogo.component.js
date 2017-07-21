@@ -17,17 +17,29 @@ angular.module("locomotivejazz.common").component('locojazzLinkLuogo',{
 
         this.naviga = function(){
             try {
+                /*
                 var split = this.luogo.urlMap.split('@');
                 split = split[1].split(',');
                 var cord = [split[0],
                      split[1]
                 ];
-                launchnavigator.navigate(cord);
+                this.openMap(cord[0] + "," + cord[1]);// + "?q=" + this.luogo.title);
+                */
+                window.open(this.luogo.urlMap, '_system', 'location=yes');
             } catch(e){
-                launchnavigator.navigate(this.luogo.title);
+                this.openMap(this.luogo.title);
             }
 
         };
+
+        this.openMap = function(luogo){
+            // launchnavigator.navigate(luogo);
+            var schema = "geo:";
+            if(!ionic.Platform.isAndroid()){
+                schema = 'http://maps.google.com/maps?';
+            }
+            window.open(schema + luogo, '_system', 'location=yes');
+        }
 
     }
 

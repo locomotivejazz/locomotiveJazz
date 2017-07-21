@@ -26,7 +26,7 @@
         {
             "map": {
                 "title": "Casa Cava/INGRESSO LIBERO",
-                "mapUrl": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
+                "urlMap": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
             },
             "descrizione": "<p> <b>RAFFAELE CASARANO</b> e ospiti, <b>MIRKO SIGNORILE</b> in piano solo</p><p> <i>Un evento Ferrovie Appulo Lucane e con la collaborazione</i> </p><p> <i>di Gezziamoci Festival Ass. Onyx jazz e Ass. Biagio Mattatelli</i> </p>"
         },

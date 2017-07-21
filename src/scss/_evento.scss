@@ -9,3 +9,9 @@
   left: 10px;
   margin: 5px 0px;
 }
+
+div.textNoWrap p {
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: normal;
+}

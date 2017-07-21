@@ -22,7 +22,7 @@
                 "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
             },
             "ore": "ore 21:00",
-            "descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i>"
+            "descrizione": "<p>OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i></p>"
         },
 		{
             "ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
@@ -34,7 +34,7 @@
         },
 		{
             "ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
-            "descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
+            "descrizione": "<p>AFTER CONCERT 'JAM SESSION LIVE' e degustazioni</p>"
         }
 	]
 }

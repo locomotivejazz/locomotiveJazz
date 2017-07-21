@@ -14,7 +14,7 @@
     "programma": [
         {
             "ore": "ore 21:00",
-            "descrizione": "OPEN STAGE <b>LUCA BANDIRALI</b> <i>'Streen Selecta Part II'</i>"
+            "descrizione": "<p>OPEN STAGE <strong>LUCA BANDIRALI</strong> <i>'Streen Selecta Part II'</i></p>"
         },
         {
             "ore": "ore 21:30 concerto-evento",
@@ -22,7 +22,7 @@
         },
         {
             "ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
-            "descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
+            "descrizione": "<p>AFTER CONCERT 'JAM SESSION LIVE' e degustazioni</p>"
         }
 	]
 }
