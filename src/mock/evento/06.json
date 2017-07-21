@@ -8,16 +8,22 @@
     "titolo": "#NOTTELOCOMOTIVE",
     "programma": [
         {
+            "titolo": "<p>LA MUSICA NASCE DALLE PERIFERIE</p>",
             "map": {
                 "title": "Castello di Acaya",
                 "urlMap": "https://www.google.it/maps/place/Castello+di+Acaya/@40.333514,18.2940656,17z/data=!3m1!4b1!4m5!3m4!1s0x13443104a75791b5:0xf8d5b7fe0f9722e!8m2!3d40.333514!4d18.2962543"
-            }
+            },
+            "ore": "ORE 11:00 / INGRESSO LIBERO",
+            "descrizione": "<p>PURPLE WHALES - JIMI HENDRIX </p><h5><b>SIMONE GRAZIANO</b></h5><p>Fender Rhodes, piano, synth </p><h5><b>ALESSANDRO LANZONI</b></h5><p>Fender Rhodes, piano</p><h5><b>NAOMI BERRILL</b></h5><p>voce, violoncello</p><h5><b>FRANCESCO BIGONI</b></h5><p>sax tenore</p><h5><b>STEFANO TAMBORRINO</b></h5><p>batteria</p>"
         },
         {
+            "titolo": "<p>TRILOGIA / NOTTE LOCOMOTIVE</p>",
             "map": {
-                "title": "Strada Bianca",
+                "title": "Parco Naturale delle Cesine, Strada Bianca",
                 "urlMap": "https://www.google.it/maps/place/40%C2%B020'18.4%22N+18%C2%B021'53.4%22E/@40.33845,18.3642768,248m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.338449!4d18.364824"
-            }
+            },
+            "ore": "ORE 23:30 / INGRESSO LIBERO",
+            "descrizione": "<h5><b>FEDERICO ZAMPAGLIONE</b></h5><p>ospite speciale 'NOTTE LOCOMOTIVE 2017'</p><p> con <h5><b>RAFFAELE CASARANO JAZZ 4TET</b></h5></p><p><i>Il Locomotive sostiene la tutela del territorio e la salvaguardia dei luoghi naturali. Per accedere all'area evento è necessario ritirare i sacchetti ecologici al costo di 1€. Grazie della collaborazione.</i></p>"
         }
 
     ]

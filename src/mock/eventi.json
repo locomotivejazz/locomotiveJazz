@@ -17,12 +17,12 @@
 					"descrizione": "conferenza La Musica nasce dalle Periferie  <p> in collaborazione con Università del Salento </p>"
 				},
 				{
-					"ore": "ore 20:30",
+					"ore": "ore 21:00",
 					"descrizione": "<p>Consegna premio</p><p><b>Ricerca e innovazione 2017-Città di Monteroni</b> </p><p>Riconoscimento alle eccellenze dell'Università del Salento</p>"
 				},
 				{
-					"ore": "ore 21:30/INGRESSO LIBERO",
-					"descrizione": "<h4><b>DANILO REA</b></h4>Piano solo"
+					"ore": "ore 21:30/ concerto evento",
+					"descrizione": "<h4><b>DANILO REA</b></h4> <p>Piano solo</p><p>presenta <i>NOTTURNO</i></p>"
 				},
 				{
 					"ore": "dalle ore 23:00 in poi",
@@ -46,8 +46,10 @@
 				{
 					"ore": "ore 19:00/INGRESSO LIBERO",
 					"descrizione": "<p> sonorizzazione restauro <i>de La Lupa</i>  </p><p> con <b>DINO RUBINO</b> piano solo  </p>",
-					"map": "Piazza Sant'Oronzo",
-					"urlMap": "https://www.google.it/maps/place/Piazza+Sant'Oronzo,+73100+Lecce+LE/@40.3530224,18.17211,19z/data=!3m1!4b1!4m5!3m4!1s0x13442ee150512531:0xa5ac1b6edd59c09e!8m2!3d40.3530214!4d18.1726572"
+					"map": {
+						"title": "Piazza Sant'Oronzo",
+						"urlMap": "https://www.google.it/maps/place/Piazza+Sant'Oronzo,+73100+Lecce+LE/@40.3530224,18.17211,19z/data=!3m1!4b1!4m5!3m4!1s0x13442ee150512531:0xa5ac1b6edd59c09e!8m2!3d40.3530214!4d18.1726572"
+					}
 				},
 				{
 					"map": {
@@ -63,7 +65,7 @@
 						"urlMap": "https://www.google.it/maps/place/Universit%C3%A0+del+Salento+-+Rettorato/@40.3494701,18.1670567,18.25z/data=!4m5!3m4!1s0x13442ee79da8cdd7:0x5bbe4afbe058aa6f!8m2!3d40.3495599!4d18.1672669"
 					},
 					"ore": "ore 22:00",
-					"descrizione": "<h4 class='red-text'><b>PAOLO FRESU</b></h4><h4 class='red-text'><b>'AROUND TUK'</b></h4><h5><b>PAOLO FRESU</b></h5><p>tromba-flicorno-elettronica</p><h5><b>RAFFAELE CASARANO</b></h5><p>sax contralto,soprano,elettronica</p><h5><b>DINO RUBINO</b></h5><p>piano e tromba</p><h5><b>MIRKO SIGNORILE</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>ENRICO MORELLO</b></h5><p>batteria</p>"
+					"descrizione": "<h4 class='red-text'><b>PAOLO FRESU</b></h4><h4 class='red-text'><b>'AROUND TUK'</b></h4><h5><b>PAOLO FRESU</b></h5><p>tromba-flicorno-elettronica</p><h5><b>RAFFAELE CASARANO</b></h5><p>sax</p><h5><b>DINO RUBINO</b></h5><p>piano - tromba</p><h5><b>MIRKO SIGNORILE</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>ENRICO MORELLO</b></h5><p>batteria</p>"
 				}
 			]
 		},
@@ -78,27 +80,26 @@
 			"programma": [
 				{
 					"ore": "ore 17:00",
-					"descrizione": "<p> inaugurazione e viaggio di una Locomotiva a vapore del 1932 da Bari a Matera  </p><p> From Station to Station da Bari a Matera  </p><p> “Binario Sonoro Puglia - Basilicata” </p><p> partenza dalla stazione di Bari Centrale</p><p> <b>MIRKO SIGNORILE</b> piano solo </p>"
+					"descrizione": "<p> inaugurazione e viaggio di una Locomotiva a vapore del 1932 da Bari a Matera  </p><p> From Station to Station Vintage edition, </p><p> progetto <i>“Binario Sonoro Puglia - Basilicata”</i>. </p><p>Partenza dalla stazione di Bari Centrale.</p>"
 				},
 				{
-					"titolo": "<p> TRILOGIA </p><p>TRAMONTO LOCOMOTIVE 2017</p>",
+					"titolo": "<p> TRILOGIA </p><p>TRAMONTO LOCOMOTIVE</p>",
 					"ore": "ore 17:30/Partenza TRENO",
-					"descrizione": "<p> prima sosta Grumo Appula </p><p> seconda sosta (degustazione) Altamura  </p>"
-				},
-				{
-					"ore": "ore 21:30/Arrivo a Matera Villa Longo",
-					"descrizione": "<p>POSTI DISPONIBILI n° 121, seconda classe € 20</p><p>In vendita su <b> www.rotaiedipuglia.it</b></p><p>info: Luigi Mighali 3471225188</p>"
+					"descrizione": "<p><b>STEFANIA ROCCA</b> reading durante il viaggio </p><p> sosta 1: Grumo Appula, </p><p> sosta 2: Toritto (degustazione) </p> <p> sosta 3: Altamura (degustazione) </p>"
 				},
 				{
 					"ore": "ore 21:30/Arrivo a Matera, Stazione Villa Longo",
-					"descrizione": "<p> passeggiata sonora tra i Sassi  </p><p> con <b> ‘LOCOMOTIVE ORCHESTRA’</b>  </p><p> e la partecipazione speciale </p><p>dell’attrice <b>STEFANIA ROCCA</b></p>"
+					"descrizione": "<p> passeggiata sonora tra i Sassi  </p><p> con <b> ‘LOCOMOTIVE ORCHESTRA’</b>  </p>"
+				},
+				{
+					"descrizione": "<p>POSTI DISPONIBILI n° 121, seconda classe € 20</p><p>In vendita su <b> www.rotaiedipuglia.it</b></p><p>info: Luigi Mighali 3471225188</p>"
 				},
 				{
 					"map": {
 						"title": "Casa Cava/INGRESSO LIBERO",
 						"mapUrl": "https://www.google.it/maps/place/Casa+Cava/@40.66845,16.6070488,17z/data=!3m1!4b1!4m5!3m4!1s0x13477edf6e00efa5:0x15700ff9de8cbef9!8m2!3d40.66845!4d16.6092375"
 					},
-					"descrizione": "<p> LIVE JAM SESSION  </p><p> <i>Un evento Ferrovie Appulo Lucane e con la collaborazione</i> </p><p> <i>di Gezziamoci Festival Ass. Onyx jazz e Ass. Biagio Mattatelli</i> </p>"
+					"descrizione": "<p> <b>RAFFAELE CASARANO</b> e ospiti, <b>MIRKO SIGNORILE</b> in piano solo</p><p> <i>Un evento Ferrovie Appulo Lucane e con la collaborazione</i> </p><p> <i>di Gezziamoci Festival Ass. Onyx jazz e Ass. Biagio Mattatelli</i> </p>"
 				},
 				{
 					"descrizione": "<p class='green-text'> Ritorno a Bari con gli autobus  </p><p class='green-text'> delle Ferrovie Appulo Lucane </p>"
@@ -115,14 +116,15 @@
 			"luogo": "LECCE",
 			"programma": [
 				{
-					"descrizione": "<p> SEMINARIO DI FOTOGRAFIA</p><p >a cura di <b>ANDREA BOCCALINI</b> </p><p >e <b>FLAVIO & FRANK</b> </p><p>Il ritratto fotografico attraverso un percorso </p><p>parte dalla musica pop e passando dal rock, </p><p>al jazz arriva al reportage e alla moda. Un </p><p>viaggio in cui Flavio e Frank insieme ad Andrea</p><p>Boccalini, partendo dalle loro esperienze </p><p>umane e professionali vi condurranno alla </p><p>scoperta della ritrattistica in chiave narrativa e </p><p>concettuale. <b> I partecipanti saranno coinvolti in </b></p><p><b>un progetto di ritrattistica legato al Lcomotive </b></p><p><b>Jazz Festival.</b></p>"
+					"descrizione": "<p> SEMINARIO DI FOTOGRAFIA</p><p >a cura di <b>ANDREA BOCCALINI</b> </p><p >e <b>FLAVIO & FRANK</b> </p><p>Il ritratto fotografico attraverso un percorso </p><p>parte dalla musica pop e passando dal rock, </p><p>al jazz arriva al reportage e alla moda. Un </p><p>viaggio in cui Flavio e Frank insieme ad Andrea</p><p>Boccalini, partendo dalle loro esperienze </p><p>umane e professionali vi condurranno alla </p><p>scoperta della ritrattistica in chiave narrativa e </p><p>concettuale. <b> I partecipanti saranno coinvolti in </b></p><p><b>un progetto di ritrattistica legato al Locomotive </b></p><p><b>Jazz Festival.</b></p>"
 				},
 				{
 					"map": {
 						"title": "Sala Conferenze LINLKS-MT",
 						"mapUrl": "https://www.google.it/maps/place/Links+Management+And+Technology+SpA/@40.3685196,18.1880955,17z/data=!3m1!4b1!4m5!3m4!1s0x13442e602b00a817:0x3a3fc82284f83768!8m2!3d40.3685155!4d18.1902842?hl=it"
 					},
-					"descrizione": "(Via Rocco Scotellaro, 55)"
+					"ore": "ore 10:30 - 19:00",
+					"descrizione": "<p>(Via Rocco Scotellaro, 55)</p><p>costo € 100</p>"
 				},
 				{
 					"descrizione": "Rinfresco"
@@ -131,10 +133,10 @@
 					"descrizione": "<p>Ai partecipanti verrà fornito un </p><p class='red-text'>Pass 'ALL AREAS LOCOMOTIVE' </p><p>che garantisce l’accesso a tutti</p><p>gli eventi in programma</p>"
 				},
 				{
-					"descrizione": "<p class='background-color:black; color:white' >INFO E ISCRIZIONI</p><p>e-mail: info@locomotivejazzfestival.it<p>tel: +39 345 1089622</p>"
+					"descrizione": "<p class='background-color:black; color:white' >INFO E ISCRIZIONI</p><p>e-mail: info@locomotivejazzfestival.it</p><p>tel: 3451089622</p>"
 				},
 				{
-					"descrizione": "<p class='red-text'></p><p>Bonifico bancario</p><p><b>BANCA:</b> Banca Sella, filiale di Maglie</p><p><b>IBAN:</b> IT 64 T 03268 79720 05275 2631960</p><p><b>CAUSALE:</b> 'Nome e Cognome, iscrizione</p><p>seminario di fotografia Locomotive' </p><p>inviare un'email con copia del bonifico all'indirizzo</p><p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
+					"descrizione": "<p class='background-color:black; color:white' >MODALITA' DI PAGAMENTO</p><p>Bonifico bancario</p><p><b>BANCA:</b> Banca Sella, filiale di Maglie</p><p><b>IBAN:</b> IT 64 T 03268 79720 05275 2631960</p><p><b>CAUSALE:</b> 'Nome e Cognome, iscrizione</p><p>seminario di fotografia Locomotive' </p><p>inviare un'email con copia del bonifico all'indirizzo</p><p><b>amministrazione@locomotivejazzfestival.it</b> </p>"
 				}
 			]
 		},
@@ -150,12 +152,30 @@
 					"map": {
 						"urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.1227514,18.4300443,17z/data=!3m1!4b1!4m5!3m4!1s0x134440095d1d3d73:0xa4733f2cf8ded64!8m2!3d40.1227473!4d18.432233",
 						"title": "Palazzo Baronale"
-					}
+					},
+					"ore": "ore 18:00 / INGRESSO LIBERO",
+					"descrizione": "<p>Incontro con Raffaele Casarano, Ada Montellanico (presidente Midj Italia) e giovani studenti di Giurdignano:</p><p><i>'La musica nella vita di una periferia'</i></p><p> a seguire passeggiata sonora e gastronomica verso il Giardino Megalitico.</p>"
 				},
 				{
 					"map": {
 						"title": "Giardino Megalitico d'Europa"
-					}
+					},
+					"ore": "ore 21:00 / INGRESSO LIBERO",
+					"descrizione": "<p>concerto <i>'LUMINA'</i> (anteprima Tuk Music)</p><h5><b>CARLA CASARANO</b></h5><p>voce</p><h5><b>LEILA SHIRVANI</b></h5><p>violoncello</p><h5><b>WILLIAM GRECO</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>EMANUELE MANISCALCO</b></h5><p>batteria</p><p><i>In collaborazione con azienda vinicola Toscana Tenuta Frescobaldi</i></p>"
+				},
+				{
+					"map": {
+						"title": "Giardino Megalitico d'Europa"
+					},
+					"ore": "ore 22:00 / INGRESSO LIBERO",
+					"descrizione": "<p>concerto <i>'Abbey's Road'</i> </p><h5><b>ADA MONTELLANICO band</b></h5><h5><p>guest </p><b>GIOVANNI FALZONE</b></h5><p>con</p><h5><b>MATTEO BORTONE</b></h5><p>contrabbasso</p><h5><b>FILIPPO VIGNATO</b></h5><p>trombone</p><h5><b>ERMANNO BARON</b></h5><p>batteria</p><p><i>omaggio alla grande Abbey Lincoln.</i></p>"
+				},
+				{
+					"map": {
+						"title": "Giardino Megalitico d'Europa"
+					},
+					"ore": "ore 23:00 / INGRESSO LIBERO",
+					"descrizione": "<p><i>'UM BRASIL DIFERENTE'</i> </p><h5><b>GABRIELE MIRABASSI</b></h5><p>clarinetto </p><h5><b>ORBERTO TAUFIC</b></h5><p>chitarra</p><h5> feat. <b>TOSCA</b></h5>"
 				}
 			]
 		},
@@ -169,16 +189,22 @@
 			"titolo": "#NOTTELOCOMOTIVE",
 			"programma": [
 				{
+					"titolo": "<p>LA MUSICA NASCE DALLE PERIFERIE</p>",
 					"map": {
 						"title": "Castello di Acaya",
 						"urlMap": "https://www.google.it/maps/place/Castello+di+Acaya/@40.333514,18.2940656,17z/data=!3m1!4b1!4m5!3m4!1s0x13443104a75791b5:0xf8d5b7fe0f9722e!8m2!3d40.333514!4d18.2962543"
-					}
+					},
+					"ore": "ORE 11:00 / INGRESSO LIBERO",
+					"descrizione": "<p>PURPLE WHALES - JIMI HENDRIX </p><h5><b>SIMONE GRAZIANO</b></h5><p>Fender Rhodes, piano, synth </p><h5><b>ALESSANDRO LANZONI</b></h5><p>Fender Rhodes, piano</p><h5><b>NAOMI BERRILL</b></h5><p>voce, violoncello</p><h5><b>FRANCESCO BIGONI</b></h5><p>sax tenore</p><h5><b>STEFANO TAMBORRINO</b></h5><p>batteria</p>"
 				},
 				{
+					"titolo": "<p>TRILOGIA / NOTTE LOCOMOTIVE</p>",
 					"map": {
-						"title": "Strada Bianca",
+						"title": "Parco Naturale delle Cesine, Strada Bianca",
 						"urlMap": "https://www.google.it/maps/place/40%C2%B020'18.4%22N+18%C2%B021'53.4%22E/@40.33845,18.3642768,248m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.338449!4d18.364824"
-					}
+					},
+					"ore": "ORE 23:30 / INGRESSO LIBERO",
+					"descrizione": "<h5><b>FEDERICO ZAMPAGLIONE</b></h5><p>ospite speciale 'NOTTE LOCOMOTIVE 2017'</p><p> con <h5><b>RAFFAELE CASARANO JAZZ 4TET</b></h5></p><p><i>Il Locomotive sostiene la tutela del territorio e la salvaguardia dei luoghi naturali. Per accedere all'area evento è necessario ritirare i sacchetti ecologici al costo di 1€. Grazie della collaborazione.</i></p>"
 				}
 			]
 		},
@@ -196,13 +222,18 @@
 					"map": {
 						"title": "Masseria Abbracciavento",
 						"urlMap": "https://www.google.it/maps/place/Masseria+Abbracciavento/@39.9358835,18.371596,998m/data=!3m2!1e3!4b1!4m5!3m4!1s0x13440da3dc2538af:0x514b368469b77067!8m2!3d39.9358794!4d18.3737847"
-					}
+					},
+					"ore": "dalle ore 22:00 / INGRESSO LIBERO",
+					"descrizione": "<p><i>'DA QUESTA PARTE DEL MARE'</i></p><p>letture a cura del prof. <b> GIGI MANGIA</b></p> <p>(letture tratte dal libro di GianMaria Testa)</p><p><i>ASPETTANDO L'ALBA LOCOMOTIVE</i></p><p>Jam session live con <b>LOCOMOTIVE GIOVANI e OSPITI</b>, dj set</p><p><i>Le navette per il concerto partono dalla Masseria Abbracciavento</i></p>"
 				},
 				{
+					"titolo": "<p>TRILOGIA / ALBA LOCOMOTIVE</p>",
 					"map": {
 						"title": "Marina Serra",
 						"urlMap": "https://www.google.it/maps/place/39%C2%B054'44.7%22N+18%C2%B023'37.2%22E/@39.9124155,18.3928834,355m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d39.912414!4d18.393661"
-					}
+					},
+					"ore": "ore 4:00 / INGRESSO LIBERO",
+					"descrizione": "<p>nella notte tra il 28 e il 29 luglio</p><p>concerto speciale 2017</p> <p><b>NOA & BAND</b> - <i> 'LOVE MEDICINE'</i></p><h5><b>NOA</b></h5><p> voce e percussioni</p><h5><b>GIL DOR</b></h5><p>chitarra e dir. musicale</p><h5><b>ADAM BEN-EZRA</b></h5><p> contrabbasso</p><h5><b>GADI SERI</b></h5><p> percussioni</p><p><i>Il Locomotive sostiene la tutela del territorio e la salvaguardia dei luoghi naturali. Per accedere all'area evento è necessario ritirare i sacchetti ecologici al costo di 1€. Grazie della collaborazione.</i></p>"
 				}
 			]
 		},
@@ -215,12 +246,26 @@
 			"data": "29 LUGLIO",
 			"luogo": "Lecce",
 			"titolo": "DREHER night",
+			"map": {
+				"title": "Anfiteatro Romano",
+				"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+			},
 			"programma": [
 				{
-					"map": {
-						"title": "Anfiteatro Romano",
-						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-					}
+					"ore": "ore 21:00",
+					"descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUESTS</b> <i>'Street Select Part I'</i>"
+				},
+				{
+					"ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
+					"descrizione": "<h5><b>Davide De luca</b></h5><p> voce</p><h5><b>Mattia Ramundo</b></h5><p> flauto</p><h5><b>Alessandro Marseglia, Francesco Politi</b></h5><p> pianoforte</p><h5><b>Miriam Lezzi</b></h5><p> basso</p><h5><b>Davide Chiarelli, Riccardo Tommasi</b></h5><p> batteria</p><p> ospite</p><h5><b> FLAVIO BOLTRO</b></h5>"
+				},
+				{
+					"ore": "ore 22:30 concerto-evento",
+					"descrizione": "<h5><b>DHAFER YOUSSEF quartet</b></h5><p> con </p><h5><b>DHAFER YOUSSEF</b></h5><p> oud</p><h5><b>CHRIS JENNINGS</b></h5><p> doublebass</p><h5><b>FERENC NEMETH</b></h5><p> drums</p><h5><b>AARON PARKS</b></h5><p> piano</p>"
+				},
+				{
+					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
 				}
 			]
 		},
@@ -233,12 +278,22 @@
 			"data": "30 LUGLIO",
 			"luogo": "Lecce",
 			"titolo": "TRIACORDA night",
+			"map": {
+				"title": "Anfiteatro Romano",
+				"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+			},
 			"programma": [
 				{
-					"map": {
-						"title": "Anfiteatro Romano",
-						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-					}
+					"ore": "ore 21:00",
+					"descrizione": "OPEN STAGE <b>LUCA BANDIRALI</b> <i>'Streen Selecta Part II'</i>"
+				},
+				{
+					"ore": "ore 21:30 concerto-evento",
+					"descrizione": "<p>reading sonoro su tema 'periferie'</p><h5><b>RAFFAELE CASARANO jazz 4tet</b></h5><h5><b>MIRKO SIGNORILE</b></h5><p> piano</p><h5><b>LUCA ALEMANNO</b></h5><p> contrabbasso</p><h5><b>DARIO CONGEDO</b></h5><p> batteria</p><p>con la partecipazione di <b>STEFANIA ROCCA</b> e di <b>EUGENIO FINARDI</b></p><p><i>Locomotive ed Enegan sostengono TRIA CORDA ONLUS nella realizzazione del Polo Pediatrico del Salento.</i></p>"
+				},
+				{
+					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
 				}
 			]
 		},
@@ -256,13 +311,29 @@
 					"map": {
 						"title": "Santa Maria di Pozzuolo, Quartiere San Pio",
 						"urlMap": "https://www.google.it/maps/place/40%C2%B021'25.1%22N+18%C2%B009'35.7%22E/@40.3569881,18.1577163,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.356984!4d18.159905"
-					}
+					},
+					"ore": "ore 10:00 / INGRESSO LIBERO",
+					"descrizione": "<p>La musica nasce dalle periferie: conclusione del progetto speciale dedicato alle periferie di Lecce <i>'Musical...mente'</i> a cura dell'Ass. Baraonda, dell'Ass. Hakuna Matata Clown, con la partecipazione dei ragazzi del <b>Locomotive Giovani</b>.</p><p>Rappresentazione de <b>IL SUONO DELLA PIOGGIA</b> a cura dell'Ass. Hakuna Matata Clown.</p>"
 				},
 				{
 					"map": {
 						"title": "Anfiteatro Romano",
 						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-					}
+					},
+					"ore": "ore 21:00",
+					"descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i>"
+				},
+				{
+					"ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
+					"descrizione": "<h5><b>Giulia Di Cagno</b></h5><p> voce</p><h5><b>Andrea Rossetti</b></h5><p> piano</p><h5><b>Marco Chiriatti, Antonio Pellegrino</b></h5><p> sax</p><h5><b>Pietro Corbascio</b></h5><p> tromba</p><h5><b>Christian Bevilacqua</b></h5><p> trombone</p><h5><b>Giancarlo Martino</b></h5><p> basso</p><h5><b>Matteo Attrotto, Davide Chiarelli</b></h5><p> batteria</p><p> ospite</p><h5><b>BEBO FERRA</b></h5>"
+				},
+				{
+					"ore": "ore 22:30 concerto-evento",
+					"descrizione": "<p><b>DANIELE DI BONAVENTURA</b> <i>'TANGO SUITE - REMEMBERING ASTOR PIAZZOLLA'</i></p><p>con <b>ORCHESTRA D'ARCHI</b> del Laboratorio Musica da Camera Conservatorio Tito Schipa</p>"
+				},
+				{
+					"ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+					"descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
 				}
 			]
 		},
@@ -277,6 +348,7 @@
 			"titolo": "BPP night",
 			"programma": [
 				{
+					"descrizione": "<p>La musica nasce dalle periferie: realizzazione di 2 laboratori aperti (uno di introduzione alla musica l'altro sulla realizzazione di braccialetti in stoffa) a cura dell' Ass. Baraonda, Ass. Lea, Ass. Straccetti, Ass. Hakuna Matata Clow. <br>Esibizione dei ragazzi del<strong> Locomotive Giovani</strong>. Pranzo sociale.</p>",
 					"map": {
 						"title": "Santa Maria di Pozzuolo, Quartiere San Pio",
 						"urlMap": "https://www.google.it/maps/place/40%C2%B021'25.1%22N+18%C2%B009'35.7%22E/@40.3569881,18.1577163,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.356984!4d18.159905"
@@ -287,6 +359,14 @@
 						"title": "Anfiteatro Romano",
 						"urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
 					}
+				},
+				{
+					"ore": "ore 21:30",
+					"descrizione": "<strong>LOCOMOTIVE GIOVANI 2017</strong> assegnazione borsa di studio"
+				},
+				{
+					"ore": "ore 22.00 concerto-evento",
+					"descrizione": "<strong>RICHARD BONA ‘&amp; MANDEKAN CUBANO</strong><br/><strong>RICHARD BONA</strong> bass &amp; vocals<br><strong>LUDWIG ALFONSO</strong> drums<br><strong>OSMANY PAREDES</strong> piano<br><strong>LUISITO QUINTERO</strong> percussion<br><strong>ROBERTO QUINTERO</strong> percussion<br><strong>REY ALEJANDRE</strong> trombone<br><strong>DENNIS HERNANDEZ</strong> trumpet"
 				}
 			]
 		},

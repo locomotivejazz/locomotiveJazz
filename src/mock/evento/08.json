@@ -7,12 +7,26 @@
     "data": "29 LUGLIO",
     "luogo": "Lecce",
     "titolo": "DREHER night",
+    "map": {
+        "title": "Anfiteatro Romano",
+        "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+    },
     "programma": [
         {
-            "map": {
-                "title": "Anfiteatro Romano",
-                "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-            }
+            "ore": "ore 21:00",
+            "descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUESTS</b> <i>'Street Select Part I'</i>"
+        },
+        {
+            "ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
+            "descrizione": "<h5><b>Davide De luca</b></h5><p> voce</p><h5><b>Mattia Ramundo</b></h5><p> flauto</p><h5><b>Alessandro Marseglia, Francesco Politi</b></h5><p> pianoforte</p><h5><b>Miriam Lezzi</b></h5><p> basso</p><h5><b>Davide Chiarelli, Riccardo Tommasi</b></h5><p> batteria</p><p> ospite</p><h5><b> FLAVIO BOLTRO</b></h5>"
+        },
+        {
+            "ore": "ore 22:30 concerto-evento",
+            "descrizione": "<h5><b>DHAFER YOUSSEF quartet</b></h5><p> con </p><h5><b>DHAFER YOUSSEF</b></h5><p> oud</p><h5><b>CHRIS JENNINGS</b></h5><p> doublebass</p><h5><b>FERENC NEMETH</b></h5><p> drums</p><h5><b>AARON PARKS</b></h5><p> piano</p>"
+        },
+        {
+            "ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+            "descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
         }
     ]
 }

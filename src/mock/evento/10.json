@@ -12,13 +12,29 @@
             "map": {
                 "title": "Santa Maria di Pozzuolo, Quartiere San Pio",
                 "urlMap": "https://www.google.it/maps/place/40%C2%B021'25.1%22N+18%C2%B009'35.7%22E/@40.3569881,18.1577163,992m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.356984!4d18.159905"
-            }
+            },
+            "ore": "ore 10:00 / INGRESSO LIBERO",
+            "descrizione": "<p>La musica nasce dalle periferie: conclusione del progetto speciale dedicato alle periferie di Lecce <i>'Musical...mente'</i> a cura dell'Ass. Baraonda, dell'Ass. Hakuna Matata Clown, con la partecipazione dei ragazzi del <b>Locomotive Giovani</b>.</p><p>Rappresentazione de <b>IL SUONO DELLA PIOGGIA</b> a cura dell'Ass. Hakuna Matata Clown.</p>"
         },
         {
             "map": {
                 "title": "Anfiteatro Romano",
                 "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-            }
+            },
+            "ore": "ore 21:00",
+            "descrizione": "OPEN STAGE <b>LUCA BANDIRALI & GUEST</b><i>'Street Selecta Part III'</i>"
+        },
+		{
+            "ore": "ore 21:30 LOCOMOTIVE GIOVANI 2017",
+            "descrizione": "<h5><b>Giulia Di Cagno</b></h5><p> voce</p><h5><b>Andrea Rossetti</b></h5><p> piano</p><h5><b>Marco Chiriatti, Antonio Pellegrino</b></h5><p> sax</p><h5><b>Pietro Corbascio</b></h5><p> tromba</p><h5><b>Christian Bevilacqua</b></h5><p> trombone</p><h5><b>Giancarlo Martino</b></h5><p> basso</p><h5><b>Matteo Attrotto, Davide Chiarelli</b></h5><p> batteria</p><p> ospite</p><h5><b>BEBO FERRA</b></h5>"
+        },
+		{
+            "ore": "ore 22:30 concerto-evento",
+            "descrizione": "<p><b>DANIELE DI BONAVENTURA</b> <i>'TANGO SUITE - REMEMBERING ASTOR PIAZZOLLA'</i></p><p>con <b>ORCHESTRA D'ARCHI</b> del Laboratorio Musica da Camera Conservatorio Tito Schipa</p>"
+        },
+		{
+            "ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+            "descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
         }
-    ]
+	]
 }

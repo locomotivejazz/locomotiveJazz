@@ -7,12 +7,22 @@
     "data": "30 LUGLIO",
     "luogo": "Lecce",
     "titolo": "TRIACORDA night",
+    "map": {
+        "title": "Anfiteatro Romano",
+        "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
+    },
     "programma": [
         {
-            "map": {
-                "title": "Anfiteatro Romano",
-                "urlMap": "https://www.google.it/maps/place/Anfiteatro+Romano/@40.3527566,18.1724521,296m/data=!3m1!1e3!4m5!3m4!1s0x13442ee3e11a5e07:0x53ffe1443bf84dd2!8m2!3d40.35242!4d18.17276"
-            }
+            "ore": "ore 21:00",
+            "descrizione": "OPEN STAGE <b>LUCA BANDIRALI</b> <i>'Streen Selecta Part II'</i>"
+        },
+        {
+            "ore": "ore 21:30 concerto-evento",
+            "descrizione": "<p>reading sonoro su tema 'periferie'</p><h5><b>RAFFAELE CASARANO jazz 4tet</b></h5><h5><b>MIRKO SIGNORILE</b></h5><p> piano</p><h5><b>LUCA ALEMANNO</b></h5><p> contrabbasso</p><h5><b>DARIO CONGEDO</b></h5><p> batteria</p><p>con la partecipazione di <b>STEFANIA ROCCA</b> e di <b>EUGENIO FINARDI</b></p><p><i>Locomotive ed Enegan sostengono TRIA CORDA ONLUS nella realizzazione del Polo Pediatrico del Salento.</i></p>"
+        },
+        {
+            "ore": "dalle ore 23:00 Museo Ferroviario / INGRESSO LIBERO",
+            "descrizione": "AFTER CONCERT 'JAM SESSION LIVE' e degustazioni"
         }
-    ]
+	]
 }

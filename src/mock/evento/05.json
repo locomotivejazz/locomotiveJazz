@@ -10,12 +10,30 @@
             "map":{
                 "urlMap": "https://www.google.it/maps/place/Palazzo+Baronale/@40.1227514,18.4300443,17z/data=!3m1!4b1!4m5!3m4!1s0x134440095d1d3d73:0xa4733f2cf8ded64!8m2!3d40.1227473!4d18.432233",
                 "title": "Palazzo Baronale"
-            }
+            },
+            "ore": "ore 18:00 / INGRESSO LIBERO",
+            "descrizione": "<p>Incontro con Raffaele Casarano, Ada Montellanico (presidente Midj Italia) e giovani studenti di Giurdignano:</p><p><i>'La musica nella vita di una periferia'</i></p><p> a seguire passeggiata sonora e gastronomica verso il Giardino Megalitico.</p>"
         },
         {
             "map":{
                 "title": "Giardino Megalitico d'Europa"
-            }
+            },
+            "ore": "ore 21:00 / INGRESSO LIBERO",
+            "descrizione": "<p>concerto <i>'LUMINA'</i> (anteprima Tuk Music)</p><h5><b>CARLA CASARANO</b></h5><p>voce</p><h5><b>LEILA SHIRVANI</b></h5><p>violoncello</p><h5><b>WILLIAM GRECO</b></h5><p>piano</p><h5><b>MARCO BARDOSCIA</b></h5><p>contrabbasso</p><h5><b>EMANUELE MANISCALCO</b></h5><p>batteria</p><p><i>In collaborazione con azienda vinicola Toscana Tenuta Frescobaldi</i></p>"
+        },
+        {
+            "map":{
+                "title": "Giardino Megalitico d'Europa"
+            },
+            "ore": "ore 22:00 / INGRESSO LIBERO",
+            "descrizione": "<p>concerto <i>'Abbey's Road'</i> </p><h5><b>ADA MONTELLANICO band</b></h5><h5><p>guest </p><b>GIOVANNI FALZONE</b></h5><p>con</p><h5><b>MATTEO BORTONE</b></h5><p>contrabbasso</p><h5><b>FILIPPO VIGNATO</b></h5><p>trombone</p><h5><b>ERMANNO BARON</b></h5><p>batteria</p><p><i>omaggio alla grande Abbey Lincoln.</i></p>"
+        },
+        {
+            "map":{
+                "title": "Giardino Megalitico d'Europa"
+            },
+            "ore": "ore 23:00 / INGRESSO LIBERO",
+            "descrizione": "<p><i>'UM BRASIL DIFERENTE'</i> </p><h5><b>GABRIELE MIRABASSI</b></h5><p>clarinetto </p><h5><b>ORBERTO TAUFIC</b></h5><p>chitarra</p><h5> feat. <b>TOSCA</b></h5>"
         }
     ]
 }

@@ -12,13 +12,18 @@
             "map": {
                 "title": "Masseria Abbracciavento",
                 "urlMap": "https://www.google.it/maps/place/Masseria+Abbracciavento/@39.9358835,18.371596,998m/data=!3m2!1e3!4b1!4m5!3m4!1s0x13440da3dc2538af:0x514b368469b77067!8m2!3d39.9358794!4d18.3737847"
-            }
+            },
+            "ore": "dalle ore 22:00 / INGRESSO LIBERO",
+            "descrizione": "<p><i>'DA QUESTA PARTE DEL MARE'</i></p><p>letture a cura del prof. <b> GIGI MANGIA</b></p> <p>(letture tratte dal libro di GianMaria Testa)</p><p><i>ASPETTANDO L'ALBA LOCOMOTIVE</i></p><p>Jam session live con <b>LOCOMOTIVE GIOVANI e OSPITI</b>, dj set</p><p><i>Le navette per il concerto partono dalla Masseria Abbracciavento</i></p>"
         },
         {
+            "titolo": "<p>TRILOGIA / ALBA LOCOMOTIVE</p>",
             "map": {
                 "title": "Marina Serra",
                 "urlMap": "https://www.google.it/maps/place/39%C2%B054'44.7%22N+18%C2%B023'37.2%22E/@39.9124155,18.3928834,355m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d39.912414!4d18.393661"
-            }
+            },
+            "ore": "ore 4:00 / INGRESSO LIBERO",
+            "descrizione": "<p>nella notte tra il 28 e il 29 luglio</p><p>concerto speciale 2017</p> <p><b>NOA & BAND</b> - <i> 'LOVE MEDICINE'</i></p><h5><b>NOA</b></h5><p> voce e percussioni</p><h5><b>GIL DOR</b></h5><p>chitarra e dir. musicale</p><h5><b>ADAM BEN-EZRA</b></h5><p> contrabbasso</p><h5><b>GADI SERI</b></h5><p> percussioni</p><p><i>Il Locomotive sostiene la tutela del territorio e la salvaguardia dei luoghi naturali. Per accedere all'area evento è necessario ritirare i sacchetti ecologici al costo di 1€. Grazie della collaborazione.</i></p>"
         }
     ]
 }
