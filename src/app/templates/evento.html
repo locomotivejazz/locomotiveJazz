@@ -1,38 +1,38 @@
 <ion-view view-title="{{ evento.titolo?evento.titolo:evento.luogo }}" />
-    <ion-content>
-        <div class="card evento">
-            <div class="item item-image">
-                <img ng-src="{{evento.image}}" >
-                <h2 class="data">{{evento.data}}</h2>
-                <h4>{{evento.titolo?evento.titolo:evento.luogo}}</h4>
-            </div>
+<ion-content>
+    <div class="card evento">
+        <div class="item item-image">
+            <img ng-src="{{evento.image}}" >
+            <h2 class="data">{{evento.data}}</h2>
+            <h4>{{evento.titolo?evento.titolo:evento.luogo}}</h4>
         </div>
-        <div ng-bind-html="evento.descrizione"></div>
+    </div>
+    <div ng-bind-html="evento.descrizione"></div>
 
-        <div class="button-bar">
-            <a class="button" ng-if="evento.map" >
-                <locojazz-link-luogo template="Button" luogo="evento.map"></locojazz-link-luogo>
-            </a>
-            <a class="button" ng-click="servizi.vaiAllaPagina(evento)">
-                <i class="icon ion-earth"></i>Scheda on-line
-            </a>
-            <a class="button" ng-if="evento.booking" ng-click="servizi.vaiAlBooking(evento)">
-                <i class="fa fa-shopping-cart"></i> Ticket
-            </a>
+    <div class="button-bar">
+        <a class="button" ng-if="evento.map" >
+            <locojazz-link-luogo template="Button" luogo="evento.map"></locojazz-link-luogo>
+        </a>
+        <a class="button" ng-click="servizi.vaiAllaPagina(evento)">
+            <i class="icon ion-earth"></i>Scheda on-line
+        </a>
+        <a class="button" ng-if="evento.booking" ng-click="servizi.vaiAlBooking(evento)">
+            <i class="fa fa-shopping-cart"></i> Ticket
+        </a>
+    </div>
+
+    <h3 class="align-center">Programma</h3>
+    <div class="card list" ng-repeat="card in evento.programma">
+        <div class="item">
+            <locojazz-link-luogo  ng-if="card.map" template="Paragraph" luogo="card.map"></locojazz-link-luogo>
+            <h4 class="align-center edificio" ng-if="card.luogo">{{card.luogo}}</h4>
+            <h4>{{ card.ore }}</h4>
+
+            <p ng-bind-html="card.descrizione"></p>
         </div>
-
-        <h3 class="align-center">Programma</h3>
-        <div class="card list" ng-repeat="card in evento.programma">
-            <div class="item">
-                <locojazz-link-luogo  ng-if="card.map" template="Paragraph" luogo="card.map"></locojazz-link-luogo>
-                <h4 class="align-center edificio" ng-if="card.luogo">{{card.luogo}}</h4>
-                <h4>{{ card.ore }}</h4>
-
-                <p ng-bind-html="card.descrizione"></p>
-            </div>
-        </div>
+    </div>
 
 
-        </div>
-    </ion-content>
+    </div>
+</ion-content>
 </ion-view>
